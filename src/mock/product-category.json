@@ -1,0 +1,46 @@
+[
+  {
+    "category": {
+      "id": 1,
+      "name": "Cubic Zirconia",
+      "description": "This is the description for Category One.",
+      "sub_category": [
+        {
+          "id": 1,
+          "name": "Cubic Zirconia White",
+          "description": "This is the description for Subcategory One.",
+          "product": [
+            {
+              "id": 1,
+              "name": "White A",
+              "description": "This is the description for Product One.",
+              "price": 19.99,
+              "image_url": "https://example.com/product-one.jpg"
+            },
+            {
+              "id": 2,
+              "name": "White AAA",
+              "description": "This is the description for Product Two.",
+              "price": 29.99,
+              "image_url": "https://example.com/product-two.jpg"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Cubic Zirconia Color Stones AAA",
+          "description": "This is the description for Subcategory Two.",
+          "product": [
+            {
+              "id": 3,
+              "name": "Amethyst",
+              "description": "This is the description for Product Three.",
+              "price": 39.99,
+              "image_url": "https://example.com/product-three.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

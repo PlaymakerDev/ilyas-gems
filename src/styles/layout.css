@@ -1,0 +1,29 @@
+/* PC */
+.nav-side-menu,
+.nav-menu-list {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* MOBILE */
+.mobile-side-menu,
+.mobile-hamburger-icon {
+  display: none;
+}
+
+@media (max-width: 900px) {
+
+  /* PC */
+  .nav-side-menu,
+  .nav-menu-list {
+    display: none;
+  }
+
+  /* MOBILE */
+  .mobile-side-menu,
+  .mobile-hamburger-icon {
+    display: block;
+  }
+
+}

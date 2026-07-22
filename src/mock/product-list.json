@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Lab Created Hydrothermal Emerald, Oval",
+    "price": 26.15,
+    "min_price": 26.15,
+    "max_price": 245.00,
+    "has_price_range": true,
+    "image_url": "/images/product/img1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Natural Tanzanite, Round AAA",
+    "price": 28.00,
+    "min_price": 28.00,
+    "max_price": 1795.00,
+    "has_price_range": true,
+    "image_url": "/images/product/img2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Natural Aquamarine, Round AAA",
+    "price": 23.80,
+    "min_price": 23.80,
+    "max_price": 990.00,
+    "has_price_range": true,
+    "image_url": "/images/product/img3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Lab Created Pulled Czochralski Blue Paraiba, Cushion",
+    "price": 29.15,
+    "min_price": 29.15,
+    "max_price": 1220.00,
+    "has_price_range": true,
+    "image_url": "/images/product/img4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Lab Created Blue Sapphire Rough",
+    "price": 90.00,
+    "min_price": 90.00,
+    "max_price": 90.00,
+    "has_price_range": false,
+    "image_url": "/images/product/img5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Lab Created Pulled Czochralski Ruby, Round",
+    "price": 29.15,
+    "min_price": 29.15,
+    "max_price": 3980.00,
+    "has_price_range": true,
+    "image_url": "/images/product/img6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Natural Peridot, Round",
+    "price": 22.40,
+    "min_price": 22.40,
+    "max_price": 560.00,
+    "has_price_range": true,
+    "image_url": "/images/product/img1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Natural Amethyst Rough",
+    "price": 45.00,
+    "min_price": 45.00,
+    "max_price": 45.00,
+    "has_price_range": false,
+    "image_url": "/images/product/img2.jpg"
+  }
+]

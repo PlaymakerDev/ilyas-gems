@@ -1,0 +1,140 @@
+/* IMPORT URL */
+@import url('../styles/layout.css');
+@import url('../styles/custom.css');
+/* IMPORT TAILWINDCSS */
+@import "tailwindcss";
+
+/* ===== UTILITIES ===== */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* ===== RESET & BASE ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  /* LAYOUT */
+  --nav-h: 72px;
+  --nav-offset: 100px;
+  /* add this — accounts for trapezoid overhang */
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-playfair-display);
+  --font-body: var(--font-montserrat);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* FONTS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-playfair-display), Georgia, serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: clamp(1.375rem, 3.73vw, 2rem);
+}
+
+h2 {
+  font-size: clamp(1.125rem, 3.73vw, 1.75rem);
+}
+
+h3 {
+  font-size: clamp(1rem, 3.73vw, 1.17rem);
+}
+
+h4 {
+  font-size: clamp(0.875rem, 3.73vw, 1rem);
+}
+
+h5 {
+  font-size: clamp(0.75rem, 3.73vw, 0.83rem);
+}
+
+h6 {
+  font-size: clamp(0.625rem, 3.73vw, 0.67rem);
+}
+
+p {
+  font-size: clamp(0.875rem, 3.73vw, 1rem);
+}
+
+/* ===== SCROLLBAR ===== */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #7A7A7A #2B2B2B;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2B2B2B;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7A7A7A;
+  border-radius: 5px;
+  border: 2px solid #2B2B2B;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--yellow);
+}
+
+::-webkit-scrollbar-corner {
+  background: #2B2B2B;
+}

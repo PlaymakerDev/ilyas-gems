@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Lab Created Diamond",
+    "description": "Pure brilliance, responsibly created.",
+    "image_url": "/images/category/img1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Lab Created Diamond",
+    "description": "Pure brilliance, responsibly created.",
+    "image_url": "/images/category/img2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Lab Created Diamond",
+    "description": "Pure brilliance, responsibly created.",
+    "image_url": "/images/category/img3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Lab Created Diamond",
+    "description": "Pure brilliance, responsibly created.",
+    "image_url": "/images/category/img4.jpg"
+  }
+]
