@@ -55,3 +55,49 @@
 .fs-11 {
 	font-size: clamp(0.6875rem, 2.67vw, 0.75rem);
 }
+
+/* BRAND INFO GRID (1 col on mobile, 2 cols on tablet, 4 cols on desktop) */
+.brand-info-item {
+	border-style: dashed;
+	border-color: #d1d5db;
+	border-width: 0;
+}
+
+/* 1 column */
+.brand-info-item:nth-child(n+2) {
+	border-top-width: 1px;
+}
+
+/* 2 columns */
+@media (min-width: 640px) {
+	.brand-info-item:nth-child(n+2) {
+		border-top-width: 0;
+	}
+
+	.brand-info-item:nth-child(2n) {
+		border-left-width: 1px;
+	}
+
+	.brand-info-item:nth-child(n+3) {
+		border-top-width: 1px;
+	}
+}
+
+/* 4 columns */
+@media (min-width: 1024px) {
+	.brand-info-item:nth-child(2n) {
+		border-left-width: 0;
+	}
+
+	.brand-info-item:nth-child(n+3) {
+		border-top-width: 0;
+	}
+
+	.brand-info-item:not(:nth-child(4n+1)) {
+		border-left-width: 1px;
+	}
+
+	.brand-info-item:nth-child(n+5) {
+		border-top-width: 1px;
+	}
+}
