@@ -7,6 +7,7 @@ import menu from '@/configs/menu'
 import { TbBaselineDensityMedium, TbSearch } from "react-icons/tb";
 import { AnnouncementBar } from '@/components/common'
 import CategoryMegaMenu from './CategoryMegaMenu'
+import { useRouter } from 'next/navigation'
 
 interface Props {
 
@@ -16,16 +17,22 @@ const productCategories = productCategoryData as ProductCategoryEntry[]
 
 const Navbar: React.FC<Props> = (props) => {
   const { } = props
+  const router = useRouter()
 
   const renderNavMenu = useMemo(() => (
     <ul className='nav-side-menu'>
       {menu['OVERALL'].map((item) => (
         <li key={item.key}>
-          <p className='fs-12 cursor-pointer hover:text-gray-800'>{item.title}</p>
+          <p
+            className='fs-12 cursor-pointer hover:text-gray-800'
+            onClick={() => router.push(item.path)}
+          >
+            {item.title}
+          </p>
         </li>
       ))}
     </ul>
-  ), [])
+  ), [router])
 
   return (
     <nav className="relative">
