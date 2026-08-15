@@ -1,19 +1,19 @@
 'use client'
 
 import React, { useMemo } from 'react'
-import productCategoryData from '@/mock/product-category.json'
-import type { ProductCategoryEntry } from '@/types/product-category'
+// import productCategoryData from '@/mock/product-category.json'
+// import type { ProductCategoryEntry } from '@/types/product-category'
 import menu from '@/configs/menu'
 import { TbBaselineDensityMedium, TbSearch } from "react-icons/tb";
 import { AnnouncementBar } from '@/components/common'
-import CategoryMegaMenu from './CategoryMegaMenu'
+// import CategoryMegaMenu from './CategoryMegaMenu'
 import { useRouter } from 'next/navigation'
 
 interface Props {
 
 }
 
-const productCategories = productCategoryData as ProductCategoryEntry[]
+// const productCategories = productCategoryData as ProductCategoryEntry[]
 
 const Navbar: React.FC<Props> = (props) => {
   const { } = props
@@ -39,7 +39,7 @@ const Navbar: React.FC<Props> = (props) => {
       <AnnouncementBar message="We Offer Unconditional Guarantees On Everything We Sell — Better Than Money-Back Guarantee!" />
 
       <section>
-        <div className="relative flex items-center p-5">
+        <div className="relative flex items-center px-5 py-8">
           <div className="flex items-center gap-4">
             {renderNavMenu}
             <TbBaselineDensityMedium className='fs-22 mobile-side-menu' />
@@ -49,7 +49,7 @@ const Navbar: React.FC<Props> = (props) => {
         </div>
       </section>
 
-      <CategoryMegaMenu categories={productCategories} />
+      {/* <CategoryMegaMenu categories={productCategories} /> */}
     </nav>
   )
 }
