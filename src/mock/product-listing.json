@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "product_name": "Lab Created Emerald - Round",
+    "product_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_price": 10.99,
+    "product_image": "https://pngimg.com/uploads/emerald/emerald_PNG22304.png",
+    "misc": {
+      "gems_type": "Emerald",
+      "gems_category": "LABS_CREATE"
+    }
+  },
+  {
+    "id": 2,
+    "product_name": "Lab Created Ruby - Round",
+    "product_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "product_price": 10.99,
+    "product_image": "https://purepng.com/public/uploads/large/purepng.com-round-rubyrubyblood-redgemstonemineral-corundumgemsapphires-1701528979929sw29r.png",
+    "misc": {
+      "gems_type": "Ruby",
+      "gems_category": "NATURAL"
+    }
+  }
+]
