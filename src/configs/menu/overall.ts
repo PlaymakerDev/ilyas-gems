@@ -13,6 +13,17 @@ export interface OverallMenuItem {
 const overall: OverallMenuItem[] = [
   {
     key: "1",
+    title: "PRODUCT",
+    label: "PRODUCT",
+    label_key: "product",
+    icon: "",
+    default_color_icon: "",
+    path: "/product",
+    path_active: "/product",
+    path_list: [],
+  },
+  {
+    key: "2",
     title: "ABOUT US",
     label: "ABOUT US",
     label_key: "about_us",
@@ -23,7 +34,7 @@ const overall: OverallMenuItem[] = [
     path_list: [],
   },
   {
-    key: "2",
+    key: "3",
     title: "GUARANTEE",
     label: "GUARANTEE",
     label_key: "guarantee",
@@ -34,7 +45,7 @@ const overall: OverallMenuItem[] = [
     path_list: [],
   },
   {
-    key: "3",
+    key: "4",
     title: "CONTACT",
     label: "CONTACT",
     label_key: "contact",
