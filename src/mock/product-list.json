@@ -6,7 +6,11 @@
     "min_price": 26.15,
     "max_price": 245.00,
     "has_price_range": true,
-    "image_url": "/images/product/img1.jpg"
+    "image_url": "/images/product/img1.jpg",
+    "sort_type": {
+      "gems_type": "Emerald",
+      "gems_category": "LABS_CREATE"
+    }
   },
   {
     "id": 2,
@@ -15,7 +19,11 @@
     "min_price": 28.00,
     "max_price": 1795.00,
     "has_price_range": true,
-    "image_url": "/images/product/img2.jpg"
+    "image_url": "/images/product/img2.jpg",
+    "sort_type": {
+      "gems_type": "Tanzanite",
+      "gems_category": "NATURAL"
+    }
   },
   {
     "id": 3,
@@ -24,7 +32,11 @@
     "min_price": 23.80,
     "max_price": 990.00,
     "has_price_range": true,
-    "image_url": "/images/product/img3.jpg"
+    "image_url": "/images/product/img3.jpg",
+    "sort_type": {
+      "gems_type": "Aquamarine",
+      "gems_category": "NATURAL"
+    }
   },
   {
     "id": 4,
@@ -33,7 +45,11 @@
     "min_price": 29.15,
     "max_price": 1220.00,
     "has_price_range": true,
-    "image_url": "/images/product/img4.jpg"
+    "image_url": "/images/product/img4.jpg",
+    "sort_type": {
+      "gems_type": "Blue Paraiba",
+      "gems_category": "LABS_CREATE"
+    }
   },
   {
     "id": 5,
@@ -42,7 +58,11 @@
     "min_price": 90.00,
     "max_price": 90.00,
     "has_price_range": false,
-    "image_url": "/images/product/img5.jpg"
+    "image_url": "/images/product/img5.jpg",
+    "sort_type": {
+      "gems_type": "Blue Sapphire",
+      "gems_category": "LABS_CREATE"
+    }
   },
   {
     "id": 6,
@@ -51,7 +71,11 @@
     "min_price": 29.15,
     "max_price": 3980.00,
     "has_price_range": true,
-    "image_url": "/images/product/img6.jpg"
+    "image_url": "/images/product/img6.jpg",
+    "sort_type": {
+      "gems_type": "Ruby",
+      "gems_category": "LABS_CREATE"
+    }
   },
   {
     "id": 7,
@@ -60,7 +84,11 @@
     "min_price": 22.40,
     "max_price": 560.00,
     "has_price_range": true,
-    "image_url": "/images/product/img1.jpg"
+    "image_url": "/images/product/img1.jpg",
+    "sort_type": {
+      "gems_type": "Peridot",
+      "gems_category": "NATURAL"
+    }
   },
   {
     "id": 8,
@@ -69,6 +97,10 @@
     "min_price": 45.00,
     "max_price": 45.00,
     "has_price_range": false,
-    "image_url": "/images/product/img2.jpg"
+    "image_url": "/images/product/img2.jpg",
+    "sort_type": {
+      "gems_type": "Amethyst",
+      "gems_category": "NATURAL"
+    }
   }
 ]
