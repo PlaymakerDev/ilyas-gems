@@ -4,7 +4,7 @@
     "name": "Lab Created Hydrothermal Emerald, Oval",
     "price": 26.15,
     "min_price": 26.15,
-    "max_price": 245.00,
+    "max_price": 245,
     "has_price_range": true,
     "image_url": "/images/product/img1.jpg",
     "sort_type": {
@@ -15,9 +15,9 @@
   {
     "id": 2,
     "name": "Natural Tanzanite, Round AAA",
-    "price": 28.00,
-    "min_price": 28.00,
-    "max_price": 1795.00,
+    "price": 28,
+    "min_price": 28,
+    "max_price": 1795,
     "has_price_range": true,
     "image_url": "/images/product/img2.jpg",
     "sort_type": {
@@ -28,9 +28,9 @@
   {
     "id": 3,
     "name": "Natural Aquamarine, Round AAA",
-    "price": 23.80,
-    "min_price": 23.80,
-    "max_price": 990.00,
+    "price": 23.8,
+    "min_price": 23.8,
+    "max_price": 990,
     "has_price_range": true,
     "image_url": "/images/product/img3.jpg",
     "sort_type": {
@@ -43,7 +43,7 @@
     "name": "Lab Created Pulled Czochralski Blue Paraiba, Cushion",
     "price": 29.15,
     "min_price": 29.15,
-    "max_price": 1220.00,
+    "max_price": 1220,
     "has_price_range": true,
     "image_url": "/images/product/img4.jpg",
     "sort_type": {
@@ -53,36 +53,324 @@
   },
   {
     "id": 5,
-    "name": "Lab Created Blue Sapphire Rough",
-    "price": 90.00,
-    "min_price": 90.00,
-    "max_price": 90.00,
-    "has_price_range": false,
+    "name": "Lab Created Blue Sapphire, Round",
+    "price": 5.3,
+    "min_price": 5.3,
+    "max_price": 13.4,
+    "has_price_range": true,
     "image_url": "/images/product/img5.jpg",
     "sort_type": {
       "gems_type": "Blue Sapphire",
       "gems_category": "LABS_CREATE"
-    }
+    },
+    "short_description": "A brilliant lab-created blue sapphire in a classic round cut, prized for its rich, saturated colour and clean sparkle at an accessible price.",
+    "description": "Glass gemstones have graced fine jewellery for generations, valued for the same qualities that define natural stones — cut, clarity, colour and carat weight. This lab-created blue sapphire is precision-faceted in a round brilliant cut, delivering vivid saturation and clean fire without the natural-stone price tag. Its wide range of sizes makes it equally suited to statement rings, delicate pendants and drop earrings.",
+    "categories": [
+      "Blue Sapphire",
+      "Glass Gemstone",
+      "Lab Created"
+    ],
+    "tags": [
+      "Lab Created",
+      "Round Cut",
+      "Simulated Sapphire"
+    ],
+    "cut": "Round Brilliant",
+    "availability": "In stock — 30 sizes available, 1.00mm to 15.00mm",
+    "specifications": [
+      {
+        "label": "Gemstone Type",
+        "value": "Glass (Lab-Created)"
+      },
+      {
+        "label": "Cut",
+        "value": "Round"
+      },
+      {
+        "label": "Mohs Hardness",
+        "value": "4 – 6.6"
+      },
+      {
+        "label": "Specific Gravity",
+        "value": "2.39 – 4.00"
+      },
+      {
+        "label": "Refractive Index",
+        "value": "1.48 – 1.70"
+      },
+      {
+        "label": "Crystal System",
+        "value": "Amorphous"
+      },
+      {
+        "label": "Fracture",
+        "value": "Conchoidal"
+      },
+      {
+        "label": "Luster",
+        "value": "Vitreous"
+      },
+      {
+        "label": "Transparency",
+        "value": "Transparent, Translucent, Opaque"
+      }
+    ],
+    "size_options": [
+      {
+        "size": "1.00mm",
+        "price_per_piece": 0.0265,
+        "pieces_per_lot": 200
+      },
+      {
+        "size": "3.00mm",
+        "price_per_piece": 0.031,
+        "pieces_per_lot": 200
+      },
+      {
+        "size": "5.00mm",
+        "price_per_piece": 0.075,
+        "pieces_per_lot": 100
+      },
+      {
+        "size": "8.00mm",
+        "price_per_piece": 0.196,
+        "pieces_per_lot": 50
+      },
+      {
+        "size": "11.00mm",
+        "price_per_piece": 0.464,
+        "pieces_per_lot": 25
+      },
+      {
+        "size": "15.00mm",
+        "price_per_piece": 0.893,
+        "pieces_per_lot": 15
+      }
+    ]
   },
   {
     "id": 6,
-    "name": "Lab Created Pulled Czochralski Ruby, Round",
-    "price": 29.15,
-    "min_price": 29.15,
-    "max_price": 3980.00,
+    "name": "Glass Red Ruby, Round",
+    "price": 5.3,
+    "min_price": 5.3,
+    "max_price": 13.4,
     "has_price_range": true,
     "image_url": "/images/product/img6.jpg",
     "sort_type": {
       "gems_type": "Ruby",
       "gems_category": "LABS_CREATE"
-    }
+    },
+    "short_description": "A vivid glass simulated ruby in a round cut, offering rich red saturation and bright fire as an affordable alternative to natural or lab-grown corundum.",
+    "description": "Glass gemstones have graced fine jewellery for generations, valued for the same qualities that define natural stones — cut, clarity, colour and carat weight. This simulated red ruby is precision-faceted in a round brilliant cut, delivering deep, saturated colour and clean sparkle without the natural-stone price tag. Its wide range of sizes makes it equally suited to statement rings, delicate pendants and drop earrings.",
+    "categories": [
+      "Glass Gemstone",
+      "Lab Created",
+      "Red Ruby"
+    ],
+    "tags": [
+      "Lab Created",
+      "Round Cut",
+      "Simulated Ruby"
+    ],
+    "cut": "Round",
+    "availability": "In stock — 30 sizes available, 1.00mm to 15.00mm",
+    "specifications": [
+      {
+        "label": "Gemstone Type",
+        "value": "Glass (Lab-Created)"
+      },
+      {
+        "label": "Cut",
+        "value": "Round"
+      },
+      {
+        "label": "Mohs Hardness",
+        "value": "4 – 6.6"
+      },
+      {
+        "label": "Specific Gravity",
+        "value": "2.39 – 4.00"
+      },
+      {
+        "label": "Refractive Index",
+        "value": "1.48 – 1.70"
+      },
+      {
+        "label": "Crystal System",
+        "value": "Amorphous"
+      },
+      {
+        "label": "Fracture",
+        "value": "Conchoidal"
+      },
+      {
+        "label": "Luster",
+        "value": "Vitreous"
+      },
+      {
+        "label": "Transparency",
+        "value": "Transparent, Translucent, Opaque"
+      }
+    ],
+    "size_options": [
+      {
+        "size": "1.00mm",
+        "price_per_piece": 0.03,
+        "pieces_per_lot": 200
+      },
+      {
+        "size": "1.25mm",
+        "price_per_piece": 0.03,
+        "pieces_per_lot": 200
+      },
+      {
+        "size": "1.50mm",
+        "price_per_piece": 0.03,
+        "pieces_per_lot": 200
+      },
+      {
+        "size": "1.75mm",
+        "price_per_piece": 0.033,
+        "pieces_per_lot": 200
+      },
+      {
+        "size": "2.00mm",
+        "price_per_piece": 0.039,
+        "pieces_per_lot": 200
+      },
+      {
+        "size": "2.25mm",
+        "price_per_piece": 0.039,
+        "pieces_per_lot": 200
+      },
+      {
+        "size": "2.50mm",
+        "price_per_piece": 0.042,
+        "pieces_per_lot": 200
+      },
+      {
+        "size": "2.75mm",
+        "price_per_piece": 0.047,
+        "pieces_per_lot": 200
+      },
+      {
+        "size": "3.00mm",
+        "price_per_piece": 0.0525,
+        "pieces_per_lot": 200
+      },
+      {
+        "size": "3.25mm",
+        "price_per_piece": 0.055,
+        "pieces_per_lot": 200
+      },
+      {
+        "size": "3.50mm",
+        "price_per_piece": 0.0575,
+        "pieces_per_lot": 200
+      },
+      {
+        "size": "3.75mm",
+        "price_per_piece": 0.061,
+        "pieces_per_lot": 200
+      },
+      {
+        "size": "4.00mm",
+        "price_per_piece": 0.065,
+        "pieces_per_lot": 200
+      },
+      {
+        "size": "4.25mm",
+        "price_per_piece": 0.067,
+        "pieces_per_lot": 200
+      },
+      {
+        "size": "4.50mm",
+        "price_per_piece": 0.076,
+        "pieces_per_lot": 100
+      },
+      {
+        "size": "5.00mm",
+        "price_per_piece": 0.09,
+        "pieces_per_lot": 100
+      },
+      {
+        "size": "5.25mm",
+        "price_per_piece": 0.094,
+        "pieces_per_lot": 100
+      },
+      {
+        "size": "5.50mm",
+        "price_per_piece": 0.1,
+        "pieces_per_lot": 100
+      },
+      {
+        "size": "5.75mm",
+        "price_per_piece": 0.109,
+        "pieces_per_lot": 100
+      },
+      {
+        "size": "6.00mm",
+        "price_per_piece": 0.115,
+        "pieces_per_lot": 100
+      },
+      {
+        "size": "6.50mm",
+        "price_per_piece": 0.127,
+        "pieces_per_lot": 50
+      },
+      {
+        "size": "7.00mm",
+        "price_per_piece": 0.136,
+        "pieces_per_lot": 50
+      },
+      {
+        "size": "8.00mm",
+        "price_per_piece": 0.17,
+        "pieces_per_lot": 50
+      },
+      {
+        "size": "9.00mm",
+        "price_per_piece": 0.212,
+        "pieces_per_lot": 25
+      },
+      {
+        "size": "10.00mm",
+        "price_per_piece": 0.242,
+        "pieces_per_lot": 25
+      },
+      {
+        "size": "11.00mm",
+        "price_per_piece": 0.294,
+        "pieces_per_lot": 25
+      },
+      {
+        "size": "12.00mm",
+        "price_per_piece": 0.34,
+        "pieces_per_lot": 25
+      },
+      {
+        "size": "13.00mm",
+        "price_per_piece": 0.4,
+        "pieces_per_lot": 15
+      },
+      {
+        "size": "14.00mm",
+        "price_per_piece": 0.44,
+        "pieces_per_lot": 15
+      },
+      {
+        "size": "15.00mm",
+        "price_per_piece": 0.5,
+        "pieces_per_lot": 15
+      }
+    ]
   },
   {
     "id": 7,
     "name": "Natural Peridot, Round",
-    "price": 22.40,
-    "min_price": 22.40,
-    "max_price": 560.00,
+    "price": 22.4,
+    "min_price": 22.4,
+    "max_price": 560,
     "has_price_range": true,
     "image_url": "/images/product/img1.jpg",
     "sort_type": {
@@ -93,14 +381,3646 @@
   {
     "id": 8,
     "name": "Natural Amethyst Rough",
-    "price": 45.00,
-    "min_price": 45.00,
-    "max_price": 45.00,
+    "price": 45,
+    "min_price": 45,
+    "max_price": 45,
     "has_price_range": false,
     "image_url": "/images/product/img2.jpg",
     "sort_type": {
       "gems_type": "Amethyst",
       "gems_category": "NATURAL"
     }
+  },
+  {
+    "id": 9,
+    "name": "Natural Blue Topaz, Pear",
+    "price": 13.59,
+    "min_price": 13.59,
+    "max_price": 13.59,
+    "has_price_range": false,
+    "image_url": "/images/product/img9.jpg",
+    "sort_type": {
+      "gems_type": "Blue Topaz",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural blue topaz, weighing 2.4 ct and measuring 10.3x7.2 mm, hand-cut in a pear step cut and sourced from Brazil.",
+    "description": "A one-of-a-kind natural blue topaz, weighing 2.4 ct and measuring 10.3x7.2 mm, hand-cut in a pear step cut and sourced from Brazil. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Blue Topaz",
+      "Natural Gemstone",
+      "Brazil"
+    ],
+    "tags": [
+      "Natural",
+      "Pear",
+      "Step Cut"
+    ],
+    "cut": "Pear Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "2.4 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "10.3x7.2 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Pear Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Brazil"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Natural Red Garnet, Oval",
+    "price": 14.45,
+    "min_price": 14.45,
+    "max_price": 14.45,
+    "has_price_range": false,
+    "image_url": "/images/product/img10.jpg",
+    "sort_type": {
+      "gems_type": "Red Garnet",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural red garnet, weighing 2.8 ct and measuring 8x6 mm, hand-cut in a oval cabochon and sourced from India.",
+    "description": "A one-of-a-kind natural red garnet, weighing 2.8 ct and measuring 8x6 mm, hand-cut in a oval cabochon and sourced from India. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Red Garnet",
+      "Natural Gemstone",
+      "India"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Cabochon"
+    ],
+    "cut": "Oval Cabochon",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "2.8 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8x6 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Cabochon"
+      },
+      {
+        "label": "Origin",
+        "value": "India"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Natural Blue Sapphire, Oval",
+    "price": 36.64,
+    "min_price": 36.64,
+    "max_price": 36.64,
+    "has_price_range": false,
+    "image_url": "/images/product/img11.jpg",
+    "sort_type": {
+      "gems_type": "Blue Sapphire",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural blue sapphire, weighing 11.04 ct and measuring 15x11.7mm, hand-cut in a oval and sourced from Sri Lanka.",
+    "description": "A one-of-a-kind natural blue sapphire, weighing 11.04 ct and measuring 15x11.7mm, hand-cut in a oval and sourced from Sri Lanka. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Blue Sapphire",
+      "Natural Gemstone",
+      "Sri Lanka"
+    ],
+    "tags": [
+      "Natural",
+      "Oval"
+    ],
+    "cut": "Oval",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "11.04 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "15x11.7mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval"
+      },
+      {
+        "label": "Origin",
+        "value": "Sri Lanka"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Natural Blue Topaz, Oval",
+    "price": 11.26,
+    "min_price": 11.26,
+    "max_price": 11.26,
+    "has_price_range": false,
+    "image_url": "/images/product/img12.jpg",
+    "sort_type": {
+      "gems_type": "Blue Topaz",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural blue topaz, weighing 1.3 ct and measuring 7.9x6x3.8 mm, hand-cut in a oval step cut and sourced from Brazil.",
+    "description": "A one-of-a-kind natural blue topaz, weighing 1.3 ct and measuring 7.9x6x3.8 mm, hand-cut in a oval step cut and sourced from Brazil. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Blue Topaz",
+      "Natural Gemstone",
+      "Brazil"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.3 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "7.9x6x3.8 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Brazil"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Natural Aquamarine, Oval",
+    "price": 15.89,
+    "min_price": 15.89,
+    "max_price": 15.89,
+    "has_price_range": false,
+    "image_url": "/images/product/img13.jpg",
+    "sort_type": {
+      "gems_type": "Aquamarine",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural aquamarine, weighing 8.7 ct and measuring 13.6x11.1x7.8mm, hand-cut in a oval and sourced from Brazil.",
+    "description": "A one-of-a-kind natural aquamarine, weighing 8.7 ct and measuring 13.6x11.1x7.8mm, hand-cut in a oval and sourced from Brazil. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Aquamarine",
+      "Natural Gemstone",
+      "Brazil"
+    ],
+    "tags": [
+      "Natural",
+      "Oval"
+    ],
+    "cut": "Oval",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "8.7 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "13.6x11.1x7.8mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval"
+      },
+      {
+        "label": "Origin",
+        "value": "Brazil"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Natural Colombian Emerald, Oval",
+    "price": 34.5,
+    "min_price": 34.5,
+    "max_price": 34.5,
+    "has_price_range": false,
+    "image_url": "/images/product/img14.jpg",
+    "sort_type": {
+      "gems_type": "Colombian Emerald",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural colombian emerald, weighing 1.53 ct and measuring 9.1x6.1x3.1mm, hand-cut in a oval.",
+    "description": "A one-of-a-kind natural colombian emerald, weighing 1.53 ct and measuring 9.1x6.1x3.1mm, hand-cut in a oval. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Colombian Emerald",
+      "Natural Gemstone"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Resin Treated"
+    ],
+    "cut": "Oval",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.53 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "9.1x6.1x3.1mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval"
+      },
+      {
+        "label": "Treatment",
+        "value": "Resin Treated"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Natural Italian Coral, Cabochon",
+    "price": 9.17,
+    "min_price": 9.17,
+    "max_price": 9.17,
+    "has_price_range": false,
+    "image_url": "/images/product/img15.jpg",
+    "sort_type": {
+      "gems_type": "Italian Coral",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural italian coral, weighing 0.79 ct and measuring 16.2x4.7 mm, hand-cut in a cabochon.",
+    "description": "A one-of-a-kind natural italian coral, weighing 0.79 ct and measuring 16.2x4.7 mm, hand-cut in a cabochon. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Italian Coral",
+      "Natural Gemstone"
+    ],
+    "tags": [
+      "Natural",
+      "Cabochon"
+    ],
+    "cut": "Cabochon",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "0.79 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "16.2x4.7 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Cabochon"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Natural Imperial Topaz, Oval",
+    "price": 9.87,
+    "min_price": 9.87,
+    "max_price": 9.87,
+    "has_price_range": false,
+    "image_url": "/images/product/img16.jpg",
+    "sort_type": {
+      "gems_type": "Imperial Topaz",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural imperial topaz, weighing 0.54 ct and measuring 9.4x7.3 mm, hand-cut in a oval step cut and sourced from Brazil.",
+    "description": "A one-of-a-kind natural imperial topaz, weighing 0.54 ct and measuring 9.4x7.3 mm, hand-cut in a oval step cut and sourced from Brazil. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Imperial Topaz",
+      "Natural Gemstone",
+      "Brazil"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "0.54 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "9.4x7.3 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Brazil"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Natural Orange Sapphire, Oval",
+    "price": 10.11,
+    "min_price": 10.11,
+    "max_price": 10.11,
+    "has_price_range": false,
+    "image_url": "/images/product/img17.jpg",
+    "sort_type": {
+      "gems_type": "Orange Sapphire",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural orange sapphire, weighing 0.63 ct and measuring 6.5x5.1mm, hand-cut in a oval step cut and sourced from Madagascar.",
+    "description": "A one-of-a-kind natural orange sapphire, weighing 0.63 ct and measuring 6.5x5.1mm, hand-cut in a oval step cut and sourced from Madagascar. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Orange Sapphire",
+      "Natural Gemstone",
+      "Madagascar"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "0.63 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "6.5x5.1mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Madagascar"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Natural Blue Sapphire, Oval",
+    "price": 10.3,
+    "min_price": 10.3,
+    "max_price": 10.3,
+    "has_price_range": false,
+    "image_url": "/images/product/img18.jpg",
+    "sort_type": {
+      "gems_type": "Blue Sapphire",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural blue sapphire, weighing 1.41 ct and measuring 8.1x6mm, hand-cut in a oval step cut.",
+    "description": "A one-of-a-kind natural blue sapphire, weighing 1.41 ct and measuring 8.1x6mm, hand-cut in a oval step cut. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Blue Sapphire",
+      "Natural Gemstone"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.41 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8.1x6mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Natural Green Sphene, Oval",
+    "price": 15.12,
+    "min_price": 15.12,
+    "max_price": 15.12,
+    "has_price_range": false,
+    "image_url": "/images/product/img19.jpg",
+    "sort_type": {
+      "gems_type": "Green Sphene",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural green sphene, weighing 2.6 ct, hand-cut in a oval cushion cut and sourced from Madagascar.",
+    "description": "A one-of-a-kind natural green sphene, weighing 2.6 ct, hand-cut in a oval cushion cut and sourced from Madagascar. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Green Sphene",
+      "Natural Gemstone",
+      "Madagascar"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Cushion Cut"
+    ],
+    "cut": "Oval Cushion Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "2.6 ct"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Cushion Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Madagascar"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Natural Smoky Topaz, Round",
+    "price": 22.9,
+    "min_price": 22.9,
+    "max_price": 22.9,
+    "has_price_range": false,
+    "image_url": "/images/product/img20.jpg",
+    "sort_type": {
+      "gems_type": "Smoky Topaz",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural smoky topaz, weighing 16.95 ct and measuring 17x17mm, hand-cut in a round cabochon and sourced from Brazil.",
+    "description": "A one-of-a-kind natural smoky topaz, weighing 16.95 ct and measuring 17x17mm, hand-cut in a round cabochon and sourced from Brazil. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Smoky Topaz",
+      "Natural Gemstone",
+      "Brazil"
+    ],
+    "tags": [
+      "Natural",
+      "Round",
+      "Cabochon"
+    ],
+    "cut": "Round Cabochon",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "16.95 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "17x17mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Round Cabochon"
+      },
+      {
+        "label": "Origin",
+        "value": "Brazil"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Natural Hessonite Garnet, Oval",
+    "price": 27.36,
+    "min_price": 27.36,
+    "max_price": 27.36,
+    "has_price_range": false,
+    "image_url": "/images/product/img21.jpg",
+    "sort_type": {
+      "gems_type": "Hessonite Garnet",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural hessonite garnet, weighing 4.44 ct, hand-cut in a oval step cut and sourced from Sri Lanka.",
+    "description": "A one-of-a-kind natural hessonite garnet, weighing 4.44 ct, hand-cut in a oval step cut and sourced from Sri Lanka. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Hessonite Garnet",
+      "Natural Gemstone",
+      "Sri Lanka"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "4.44 ct"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Sri Lanka"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Natural Hessonite Garnet, Cushion",
+    "price": 24.3,
+    "min_price": 24.3,
+    "max_price": 24.3,
+    "has_price_range": false,
+    "image_url": "/images/product/img22.jpg",
+    "sort_type": {
+      "gems_type": "Hessonite Garnet",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural hessonite garnet, weighing 3.72 ct and measuring 9.9x8.2mm, hand-cut in a cushion cushion cut and sourced from Sri Lanka.",
+    "description": "A one-of-a-kind natural hessonite garnet, weighing 3.72 ct and measuring 9.9x8.2mm, hand-cut in a cushion cushion cut and sourced from Sri Lanka. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Hessonite Garnet",
+      "Natural Gemstone",
+      "Sri Lanka"
+    ],
+    "tags": [
+      "Natural",
+      "Cushion",
+      "Cushion Cut"
+    ],
+    "cut": "Cushion Cushion Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "3.72 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "9.9x8.2mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Cushion Cushion Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Sri Lanka"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Natural Amethyst, Oval",
+    "price": 27.21,
+    "min_price": 27.21,
+    "max_price": 27.21,
+    "has_price_range": false,
+    "image_url": "/images/product/img23.jpg",
+    "sort_type": {
+      "gems_type": "Amethyst",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural amethyst, weighing 7.34 ct and measuring 14.3x12 mm, hand-cut in a oval brilliant cut.",
+    "description": "A one-of-a-kind natural amethyst, weighing 7.34 ct and measuring 14.3x12 mm, hand-cut in a oval brilliant cut. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Amethyst",
+      "Natural Gemstone"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Brilliant Cut",
+      "Untreated"
+    ],
+    "cut": "Oval Brilliant Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "7.34 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "14.3x12 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Brilliant Cut"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Natural Spessartite Garnet, Oval",
+    "price": 18.9,
+    "min_price": 18.9,
+    "max_price": 18.9,
+    "has_price_range": false,
+    "image_url": "/images/product/img24.jpg",
+    "sort_type": {
+      "gems_type": "Spessartite Garnet",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural spessartite garnet, weighing 4.08 ct and measuring 8.8x7.8 mm, hand-cut in a oval cabochon and sourced from Namibia.",
+    "description": "A one-of-a-kind natural spessartite garnet, weighing 4.08 ct and measuring 8.8x7.8 mm, hand-cut in a oval cabochon and sourced from Namibia. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Spessartite Garnet",
+      "Natural Gemstone",
+      "Namibia"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Cabochon"
+    ],
+    "cut": "Oval Cabochon",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "4.08 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8.8x7.8 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Cabochon"
+      },
+      {
+        "label": "Origin",
+        "value": "Namibia"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Natural Paraiba Blue Apatite, Oval",
+    "price": 8.87,
+    "min_price": 8.87,
+    "max_price": 8.87,
+    "has_price_range": false,
+    "image_url": "/images/product/img25.jpg",
+    "sort_type": {
+      "gems_type": "Paraiba Blue Apatite",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural paraiba blue apatite, weighing 0.22 ct and measuring 6.7x4.7mm, hand-cut in a oval step cut and sourced from Madagascar.",
+    "description": "A one-of-a-kind natural paraiba blue apatite, weighing 0.22 ct and measuring 6.7x4.7mm, hand-cut in a oval step cut and sourced from Madagascar. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Paraiba Blue Apatite",
+      "Natural Gemstone",
+      "Madagascar"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "0.22 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "6.7x4.7mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Madagascar"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Natural Blue Zircon, Oval",
+    "price": 9.72,
+    "min_price": 9.72,
+    "max_price": 9.72,
+    "has_price_range": false,
+    "image_url": "/images/product/img26.jpg",
+    "sort_type": {
+      "gems_type": "Blue Zircon",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural blue zircon, weighing 0.24 ct and measuring 6.9x5.2 mm, hand-cut in a oval step cut and sourced from Cambodia.",
+    "description": "A one-of-a-kind natural blue zircon, weighing 0.24 ct and measuring 6.9x5.2 mm, hand-cut in a oval step cut and sourced from Cambodia. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Blue Zircon",
+      "Natural Gemstone",
+      "Cambodia"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "0.24 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "6.9x5.2 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Cambodia"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Natural Blue Sapphire, Oval",
+    "price": 9.81,
+    "min_price": 9.81,
+    "max_price": 9.81,
+    "has_price_range": false,
+    "image_url": "/images/product/img27.jpg",
+    "sort_type": {
+      "gems_type": "Blue Sapphire",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural blue sapphire, weighing 0.77 ct and measuring 5.9x5mm, hand-cut in a oval and sourced from Sri Lanka.",
+    "description": "A one-of-a-kind natural blue sapphire, weighing 0.77 ct and measuring 5.9x5mm, hand-cut in a oval and sourced from Sri Lanka. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Blue Sapphire",
+      "Natural Gemstone",
+      "Sri Lanka"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Heated"
+    ],
+    "cut": "Oval",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "0.77 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "5.9x5mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval"
+      },
+      {
+        "label": "Origin",
+        "value": "Sri Lanka"
+      },
+      {
+        "label": "Treatment",
+        "value": "Heated"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Natural Pink Tourmaline, Cushion",
+    "price": 19.53,
+    "min_price": 19.53,
+    "max_price": 19.53,
+    "has_price_range": false,
+    "image_url": "/images/product/img28.jpg",
+    "sort_type": {
+      "gems_type": "Pink Tourmaline",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural pink tourmaline, weighing 1.18 ct and measuring 6.5x5.9x4.1mm, hand-cut in a cushion step cut.",
+    "description": "A one-of-a-kind natural pink tourmaline, weighing 1.18 ct and measuring 6.5x5.9x4.1mm, hand-cut in a cushion step cut. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Pink Tourmaline",
+      "Natural Gemstone"
+    ],
+    "tags": [
+      "Natural",
+      "Cushion",
+      "Step Cut"
+    ],
+    "cut": "Cushion Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.18 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "6.5x5.9x4.1mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Cushion Step Cut"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Natural Black Onyx, Oval",
+    "price": 10.08,
+    "min_price": 10.08,
+    "max_price": 10.08,
+    "has_price_range": false,
+    "image_url": "/images/product/img29.jpg",
+    "sort_type": {
+      "gems_type": "Black Onyx",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural black onyx, weighing 3.7 ct and measuring 8x6–8.2x6.1mm, hand-cut in a oval cabochon and sourced from Brazil.",
+    "description": "A one-of-a-kind natural black onyx, weighing 3.7 ct and measuring 8x6–8.2x6.1mm, hand-cut in a oval cabochon and sourced from Brazil. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Black Onyx",
+      "Natural Gemstone",
+      "Brazil"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Cabochon"
+    ],
+    "cut": "Oval Cabochon",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "3.7 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8x6–8.2x6.1mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Cabochon"
+      },
+      {
+        "label": "Origin",
+        "value": "Brazil"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Natural Amethyst, Oval",
+    "price": 30.86,
+    "min_price": 30.86,
+    "max_price": 30.86,
+    "has_price_range": false,
+    "image_url": "/images/product/img30.jpg",
+    "sort_type": {
+      "gems_type": "Amethyst",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural amethyst, weighing 8.77 ct and measuring 16.1x12.2mm, hand-cut in a oval and sourced from Brazil.",
+    "description": "A one-of-a-kind natural amethyst, weighing 8.77 ct and measuring 16.1x12.2mm, hand-cut in a oval and sourced from Brazil. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Amethyst",
+      "Natural Gemstone",
+      "Brazil"
+    ],
+    "tags": [
+      "Natural",
+      "Oval"
+    ],
+    "cut": "Oval",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "8.77 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "16.1x12.2mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval"
+      },
+      {
+        "label": "Origin",
+        "value": "Brazil"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Natural Zircon, Oval",
+    "price": 16.25,
+    "min_price": 16.25,
+    "max_price": 16.25,
+    "has_price_range": false,
+    "image_url": "/images/product/img31.jpg",
+    "sort_type": {
+      "gems_type": "Zircon",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural zircon, weighing 1.52 ct and measuring 7x5.5mm, hand-cut in a oval and sourced from Cambodia.",
+    "description": "A one-of-a-kind natural zircon, weighing 1.52 ct and measuring 7x5.5mm, hand-cut in a oval and sourced from Cambodia. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Zircon",
+      "Natural Gemstone",
+      "Cambodia"
+    ],
+    "tags": [
+      "Natural",
+      "Oval"
+    ],
+    "cut": "Oval",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.52 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "7x5.5mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval"
+      },
+      {
+        "label": "Origin",
+        "value": "Cambodia"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Natural Red Garnet, Oval",
+    "price": 14.89,
+    "min_price": 14.89,
+    "max_price": 14.89,
+    "has_price_range": false,
+    "image_url": "/images/product/img32.jpg",
+    "sort_type": {
+      "gems_type": "Red Garnet",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural red garnet, weighing 3.01 ct and measuring 8x6 mm, hand-cut in a oval step cut and sourced from India.",
+    "description": "A one-of-a-kind natural red garnet, weighing 3.01 ct and measuring 8x6 mm, hand-cut in a oval step cut and sourced from India. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Red Garnet",
+      "Natural Gemstone",
+      "India"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut",
+      "Not Enhanced"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "3.01 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8x6 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "India"
+      },
+      {
+        "label": "Treatment",
+        "value": "Not Enhanced"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Natural Peridot, Pear",
+    "price": 19.38,
+    "min_price": 19.38,
+    "max_price": 19.38,
+    "has_price_range": false,
+    "image_url": "/images/product/img33.jpg",
+    "sort_type": {
+      "gems_type": "Peridot",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural peridot, weighing 1.28 ct, hand-cut in a pear step cut and sourced from Pakistan.",
+    "description": "A one-of-a-kind natural peridot, weighing 1.28 ct, hand-cut in a pear step cut and sourced from Pakistan. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Peridot",
+      "Natural Gemstone",
+      "Pakistan"
+    ],
+    "tags": [
+      "Natural",
+      "Pear",
+      "Step Cut"
+    ],
+    "cut": "Pear Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.28 ct"
+      },
+      {
+        "label": "Cut",
+        "value": "Pear Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Pakistan"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Natural Blue Topaz, Oval",
+    "price": 12.03,
+    "min_price": 12.03,
+    "max_price": 12.03,
+    "has_price_range": false,
+    "image_url": "/images/product/img34.jpg",
+    "sort_type": {
+      "gems_type": "Blue Topaz",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural blue topaz, weighing 1.7 ct and measuring 8x6 mm, hand-cut in a oval step cut and sourced from Brazil.",
+    "description": "A one-of-a-kind natural blue topaz, weighing 1.7 ct and measuring 8x6 mm, hand-cut in a oval step cut and sourced from Brazil. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Blue Topaz",
+      "Natural Gemstone",
+      "Brazil"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.7 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8x6 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Brazil"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Natural Mozambique Ruby, Oval",
+    "price": 18.12,
+    "min_price": 18.12,
+    "max_price": 18.12,
+    "has_price_range": false,
+    "image_url": "/images/product/img35.jpg",
+    "sort_type": {
+      "gems_type": "Mozambique Ruby",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural mozambique ruby, weighing 5.66 ct, hand-cut in a oval step cut.",
+    "description": "A one-of-a-kind natural mozambique ruby, weighing 5.66 ct, hand-cut in a oval step cut. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Mozambique Ruby",
+      "Natural Gemstone"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "5.66 ct"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Natural Brazilian Citrine, Oval",
+    "price": 15.3,
+    "min_price": 15.3,
+    "max_price": 15.3,
+    "has_price_range": false,
+    "image_url": "/images/product/img36.jpg",
+    "sort_type": {
+      "gems_type": "Brazilian Citrine",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural brazilian citrine, weighing 2 ct and measuring 8x6 mm, hand-cut in a oval step cut and sourced from Brazil.",
+    "description": "A one-of-a-kind natural brazilian citrine, weighing 2 ct and measuring 8x6 mm, hand-cut in a oval step cut and sourced from Brazil. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Brazilian Citrine",
+      "Natural Gemstone",
+      "Brazil"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "2 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8x6 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Brazil"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Natural Green Tourmaline, Oval",
+    "price": 20.58,
+    "min_price": 20.58,
+    "max_price": 20.58,
+    "has_price_range": false,
+    "image_url": "/images/product/img37.jpg",
+    "sort_type": {
+      "gems_type": "Green Tourmaline",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural green tourmaline, weighing 0.79 ct and measuring 5.7x4.8 mm, hand-cut in a oval step cut and sourced from Brazil.",
+    "description": "A one-of-a-kind natural green tourmaline, weighing 0.79 ct and measuring 5.7x4.8 mm, hand-cut in a oval step cut and sourced from Brazil. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Green Tourmaline",
+      "Natural Gemstone",
+      "Brazil"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "0.79 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "5.7x4.8 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Brazil"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Natural Rhodolite Garnet, Oval",
+    "price": 23.12,
+    "min_price": 23.12,
+    "max_price": 23.12,
+    "has_price_range": false,
+    "image_url": "/images/product/img38.jpg",
+    "sort_type": {
+      "gems_type": "Rhodolite Garnet",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural rhodolite garnet, weighing 4.3 ct and measuring 9.5x7.9 mm, hand-cut in a oval step cut and sourced from India.",
+    "description": "A one-of-a-kind natural rhodolite garnet, weighing 4.3 ct and measuring 9.5x7.9 mm, hand-cut in a oval step cut and sourced from India. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Rhodolite Garnet",
+      "Natural Gemstone",
+      "India"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "4.3 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "9.5x7.9 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "India"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Natural Green Tourmaline, Rectangle",
+    "price": 18.69,
+    "min_price": 18.69,
+    "max_price": 18.69,
+    "has_price_range": false,
+    "image_url": "/images/product/img39.jpg",
+    "sort_type": {
+      "gems_type": "Green Tourmaline",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural green tourmaline, weighing 1.09 ct and measuring 8.2x4.3x3.2mm, hand-cut in a rectangle step cut.",
+    "description": "A one-of-a-kind natural green tourmaline, weighing 1.09 ct and measuring 8.2x4.3x3.2mm, hand-cut in a rectangle step cut. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Green Tourmaline",
+      "Natural Gemstone"
+    ],
+    "tags": [
+      "Natural",
+      "Rectangle",
+      "Step Cut"
+    ],
+    "cut": "Rectangle Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.09 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8.2x4.3x3.2mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Rectangle Step Cut"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Natural Mozambique Ruby, Oval",
+    "price": 11.69,
+    "min_price": 11.69,
+    "max_price": 11.69,
+    "has_price_range": false,
+    "image_url": "/images/product/img40.jpg",
+    "sort_type": {
+      "gems_type": "Mozambique Ruby",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural mozambique ruby, weighing 1.25 ct and measuring 8x5.6 mm, hand-cut in a oval step cut.",
+    "description": "A one-of-a-kind natural mozambique ruby, weighing 1.25 ct and measuring 8x5.6 mm, hand-cut in a oval step cut. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Mozambique Ruby",
+      "Natural Gemstone"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.25 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8x5.6 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Natural Kyanite, Oval",
+    "price": 18.54,
+    "min_price": 18.54,
+    "max_price": 18.54,
+    "has_price_range": false,
+    "image_url": "/images/product/img41.jpg",
+    "sort_type": {
+      "gems_type": "Kyanite",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural kyanite, weighing 1.97 ct and measuring 9.3x6.8mm, hand-cut in a oval step cut.",
+    "description": "A one-of-a-kind natural kyanite, weighing 1.97 ct and measuring 9.3x6.8mm, hand-cut in a oval step cut. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Kyanite",
+      "Natural Gemstone"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.97 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "9.3x6.8mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Natural Green Apatite, Oval",
+    "price": 49.97,
+    "min_price": 49.97,
+    "max_price": 49.97,
+    "has_price_range": false,
+    "image_url": "/images/product/img42.jpg",
+    "sort_type": {
+      "gems_type": "Green Apatite",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural green apatite, weighing 2.44 ct and measuring 9.6x7.1 mm, hand-cut in a oval step cut and sourced from Madagascar.",
+    "description": "A one-of-a-kind natural green apatite, weighing 2.44 ct and measuring 9.6x7.1 mm, hand-cut in a oval step cut and sourced from Madagascar. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Green Apatite",
+      "Natural Gemstone",
+      "Madagascar"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "2.44 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "9.6x7.1 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Madagascar"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Natural Tiger Eye, Oval",
+    "price": 10.16,
+    "min_price": 10.16,
+    "max_price": 10.16,
+    "has_price_range": false,
+    "image_url": "/images/product/img43.jpg",
+    "sort_type": {
+      "gems_type": "Tiger Eye",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural tiger eye, weighing 3.9 ct and measuring 11.7x9.7 mm, hand-cut in a oval cabochon and sourced from South Africa.",
+    "description": "A one-of-a-kind natural tiger eye, weighing 3.9 ct and measuring 11.7x9.7 mm, hand-cut in a oval cabochon and sourced from South Africa. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Tiger Eye",
+      "Natural Gemstone",
+      "South Africa"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Cabochon"
+    ],
+    "cut": "Oval Cabochon",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "3.9 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "11.7x9.7 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Cabochon"
+      },
+      {
+        "label": "Origin",
+        "value": "South Africa"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Natural Iranian Turquoise, Oval",
+    "price": 50.5,
+    "min_price": 50.5,
+    "max_price": 50.5,
+    "has_price_range": false,
+    "image_url": "/images/product/img44.jpg",
+    "sort_type": {
+      "gems_type": "Iranian Turquoise",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural iranian turquoise, weighing 24.71 ct and measuring 19x16 mm, hand-cut in a oval cabochon.",
+    "description": "A one-of-a-kind natural iranian turquoise, weighing 24.71 ct and measuring 19x16 mm, hand-cut in a oval cabochon. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Iranian Turquoise",
+      "Natural Gemstone"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Cabochon"
+    ],
+    "cut": "Oval Cabochon",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "24.71 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "19x16 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Cabochon"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Natural Peridot, Oval",
+    "price": 21.93,
+    "min_price": 21.93,
+    "max_price": 21.93,
+    "has_price_range": false,
+    "image_url": "/images/product/img45.jpg",
+    "sort_type": {
+      "gems_type": "Peridot",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural peridot, weighing 1.58 ct and measuring 8x6x4.2mm, hand-cut in a oval and sourced from Pakistan.",
+    "description": "A one-of-a-kind natural peridot, weighing 1.58 ct and measuring 8x6x4.2mm, hand-cut in a oval and sourced from Pakistan. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Peridot",
+      "Natural Gemstone",
+      "Pakistan"
+    ],
+    "tags": [
+      "Natural",
+      "Oval"
+    ],
+    "cut": "Oval",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.58 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8x6x4.2mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval"
+      },
+      {
+        "label": "Origin",
+        "value": "Pakistan"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Natural Red Ruby, Oval",
+    "price": 14.24,
+    "min_price": 14.24,
+    "max_price": 14.24,
+    "has_price_range": false,
+    "image_url": "/images/product/img46.jpg",
+    "sort_type": {
+      "gems_type": "Red Ruby",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural red ruby, weighing 2.7 ct and measuring 9x7 mm, hand-cut in a oval step cut and sourced from Thailand.",
+    "description": "A one-of-a-kind natural red ruby, weighing 2.7 ct and measuring 9x7 mm, hand-cut in a oval step cut and sourced from Thailand. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Red Ruby",
+      "Natural Gemstone",
+      "Thailand"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "2.7 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "9x7 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Thailand"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Natural Dark Red Garnet, Oval",
+    "price": 16,
+    "min_price": 16,
+    "max_price": 16,
+    "has_price_range": false,
+    "image_url": "/images/product/img47.jpg",
+    "sort_type": {
+      "gems_type": "Dark Red Garnet",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural dark red garnet, weighing 3.53 ct and measuring 8x6-8.2x6.2mm, hand-cut in a oval and sourced from Madagascar.",
+    "description": "A one-of-a-kind natural dark red garnet, weighing 3.53 ct and measuring 8x6-8.2x6.2mm, hand-cut in a oval and sourced from Madagascar. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Dark Red Garnet",
+      "Natural Gemstone",
+      "Madagascar"
+    ],
+    "tags": [
+      "Natural",
+      "Oval"
+    ],
+    "cut": "Oval",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "3.53 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8x6-8.2x6.2mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval"
+      },
+      {
+        "label": "Origin",
+        "value": "Madagascar"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Natural Sri Lanka Moonstone, Oval",
+    "price": 15.51,
+    "min_price": 15.51,
+    "max_price": 15.51,
+    "has_price_range": false,
+    "image_url": "/images/product/img48.jpg",
+    "sort_type": {
+      "gems_type": "Sri Lanka Moonstone",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural sri lanka moonstone, weighing 8.25 ct and measuring 12x12x7.6mm, hand-cut in a oval cabochon and sourced from Sri Lanka.",
+    "description": "A one-of-a-kind natural sri lanka moonstone, weighing 8.25 ct and measuring 12x12x7.6mm, hand-cut in a oval cabochon and sourced from Sri Lanka. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Sri Lanka Moonstone",
+      "Natural Gemstone",
+      "Sri Lanka"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Cabochon"
+    ],
+    "cut": "Oval Cabochon",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "8.25 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "12x12x7.6mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Cabochon"
+      },
+      {
+        "label": "Origin",
+        "value": "Sri Lanka"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Natural Citrine, Marquise",
+    "price": 36.62,
+    "min_price": 36.62,
+    "max_price": 36.62,
+    "has_price_range": false,
+    "image_url": "/images/product/img49.jpg",
+    "sort_type": {
+      "gems_type": "Citrine",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural citrine, weighing 11.03 ct and measuring 10x5–10x4.9mm, hand-cut in a marquise step cut.",
+    "description": "A one-of-a-kind natural citrine, weighing 11.03 ct and measuring 10x5–10x4.9mm, hand-cut in a marquise step cut. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Citrine",
+      "Natural Gemstone"
+    ],
+    "tags": [
+      "Natural",
+      "Marquise",
+      "Step Cut"
+    ],
+    "cut": "Marquise Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "11.03 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "10x5–10x4.9mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Marquise Step Cut"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Natural Ruby, Oval",
+    "price": 24.96,
+    "min_price": 24.96,
+    "max_price": 24.96,
+    "has_price_range": false,
+    "image_url": "/images/product/img50.jpg",
+    "sort_type": {
+      "gems_type": "Ruby",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural ruby, weighing 7.75 ct and measuring 12.8x10mm, hand-cut in a oval step cut.",
+    "description": "A one-of-a-kind natural ruby, weighing 7.75 ct and measuring 12.8x10mm, hand-cut in a oval step cut. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Ruby",
+      "Natural Gemstone"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "7.75 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "12.8x10mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Natural Red Ruby, Oval",
+    "price": 26.34,
+    "min_price": 26.34,
+    "max_price": 26.34,
+    "has_price_range": false,
+    "image_url": "/images/product/img51.jpg",
+    "sort_type": {
+      "gems_type": "Red Ruby",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural red ruby, weighing 3 ct and measuring 9.1x7.1mm, hand-cut in a oval step cut and sourced from Myanmar.",
+    "description": "A one-of-a-kind natural red ruby, weighing 3 ct and measuring 9.1x7.1mm, hand-cut in a oval step cut and sourced from Myanmar. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Red Ruby",
+      "Natural Gemstone",
+      "Myanmar"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "3 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "9.1x7.1mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Myanmar"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Natural Blue Chalcedony, Pear",
+    "price": 24.61,
+    "min_price": 24.61,
+    "max_price": 24.61,
+    "has_price_range": false,
+    "image_url": "/images/product/img52.jpg",
+    "sort_type": {
+      "gems_type": "Blue Chalcedony",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural blue chalcedony, weighing 18.95 ct and measuring 22x16mm, hand-cut in a pear cabochon and sourced from Namibia.",
+    "description": "A one-of-a-kind natural blue chalcedony, weighing 18.95 ct and measuring 22x16mm, hand-cut in a pear cabochon and sourced from Namibia. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Blue Chalcedony",
+      "Natural Gemstone",
+      "Namibia"
+    ],
+    "tags": [
+      "Natural",
+      "Pear",
+      "Cabochon"
+    ],
+    "cut": "Pear Cabochon",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "18.95 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "22x16mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Pear Cabochon"
+      },
+      {
+        "label": "Origin",
+        "value": "Namibia"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Natural Green Emerald, Emerald Cut",
+    "price": 42.15,
+    "min_price": 42.15,
+    "max_price": 42.15,
+    "has_price_range": false,
+    "image_url": "/images/product/img53.jpg",
+    "sort_type": {
+      "gems_type": "Green Emerald",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural green emerald, weighing 1.98 ct and measuring 8X6.2X4.5mm, hand-cut in a emerald cut and sourced from Colombia.",
+    "description": "A one-of-a-kind natural green emerald, weighing 1.98 ct and measuring 8X6.2X4.5mm, hand-cut in a emerald cut and sourced from Colombia. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Green Emerald",
+      "Natural Gemstone",
+      "Colombia"
+    ],
+    "tags": [
+      "Natural",
+      "Emerald Cut",
+      "Resin Treated"
+    ],
+    "cut": "Emerald Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.98 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8X6.2X4.5mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Emerald Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Colombia"
+      },
+      {
+        "label": "Treatment",
+        "value": "Resin Treated"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Natural Rose Quartz, Round",
+    "price": 16.57,
+    "min_price": 16.57,
+    "max_price": 16.57,
+    "has_price_range": false,
+    "image_url": "/images/product/img54.jpg",
+    "sort_type": {
+      "gems_type": "Rose Quartz",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural rose quartz, weighing 19 ct and measuring 18x18mm, hand-cut in a round cabochon and sourced from Madagascar.",
+    "description": "A one-of-a-kind natural rose quartz, weighing 19 ct and measuring 18x18mm, hand-cut in a round cabochon and sourced from Madagascar. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Rose Quartz",
+      "Natural Gemstone",
+      "Madagascar"
+    ],
+    "tags": [
+      "Natural",
+      "Round",
+      "Cabochon"
+    ],
+    "cut": "Round Cabochon",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "19 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "18x18mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Round Cabochon"
+      },
+      {
+        "label": "Origin",
+        "value": "Madagascar"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Natural Ruby, Oval",
+    "price": 39.02,
+    "min_price": 39.02,
+    "max_price": 39.02,
+    "has_price_range": false,
+    "image_url": "/images/product/img55.jpg",
+    "sort_type": {
+      "gems_type": "Ruby",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural ruby, weighing 5.13 ct and measuring 11.1x9.1mm, hand-cut in a oval step cut and sourced from Myanmar.",
+    "description": "A one-of-a-kind natural ruby, weighing 5.13 ct and measuring 11.1x9.1mm, hand-cut in a oval step cut and sourced from Myanmar. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Ruby",
+      "Natural Gemstone",
+      "Myanmar"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "5.13 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "11.1x9.1mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Myanmar"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Natural Green Apatite, Oval",
+    "price": 41.13,
+    "min_price": 41.13,
+    "max_price": 41.13,
+    "has_price_range": false,
+    "image_url": "/images/product/img56.jpg",
+    "sort_type": {
+      "gems_type": "Green Apatite",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural green apatite, weighing 1.92 ct and measuring 7.7x7.2x5.1mm, hand-cut in a oval and sourced from Madagascar.",
+    "description": "A one-of-a-kind natural green apatite, weighing 1.92 ct and measuring 7.7x7.2x5.1mm, hand-cut in a oval and sourced from Madagascar. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Green Apatite",
+      "Natural Gemstone",
+      "Madagascar"
+    ],
+    "tags": [
+      "Natural",
+      "Oval"
+    ],
+    "cut": "Oval",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.92 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "7.7x7.2x5.1mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval"
+      },
+      {
+        "label": "Origin",
+        "value": "Madagascar"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Natural Amber, Oval",
+    "price": 15.3,
+    "min_price": 15.3,
+    "max_price": 15.3,
+    "has_price_range": false,
+    "image_url": "/images/product/img57.jpg",
+    "sort_type": {
+      "gems_type": "Amber",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural amber and measuring 8x8 mm, hand-cut in a oval cabochon.",
+    "description": "A one-of-a-kind natural amber and measuring 8x8 mm, hand-cut in a oval cabochon. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Amber",
+      "Natural Gemstone"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Cabochon"
+    ],
+    "cut": "Oval Cabochon",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Dimensions",
+        "value": "8x8 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Cabochon"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Natural Grandidierite, Oval",
+    "price": 20.48,
+    "min_price": 20.48,
+    "max_price": 20.48,
+    "has_price_range": false,
+    "image_url": "/images/product/img58.jpg",
+    "sort_type": {
+      "gems_type": "Grandidierite",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural grandidierite, weighing 9.46 ct, hand-cut in a oval faceted and sourced from Madagascar.",
+    "description": "A one-of-a-kind natural grandidierite, weighing 9.46 ct, hand-cut in a oval faceted and sourced from Madagascar. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Grandidierite",
+      "Natural Gemstone",
+      "Madagascar"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Faceted"
+    ],
+    "cut": "Oval Faceted",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "9.46 ct"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Faceted"
+      },
+      {
+        "label": "Origin",
+        "value": "Madagascar"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Natural Red Ruby, Oval",
+    "price": 54.42,
+    "min_price": 54.42,
+    "max_price": 54.42,
+    "has_price_range": false,
+    "image_url": "/images/product/img59.jpg",
+    "sort_type": {
+      "gems_type": "Red Ruby",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural red ruby, weighing 7.72 ct, hand-cut in a oval faceted and sourced from Myanmar.",
+    "description": "A one-of-a-kind natural red ruby, weighing 7.72 ct, hand-cut in a oval faceted and sourced from Myanmar. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Red Ruby",
+      "Natural Gemstone",
+      "Myanmar"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Faceted"
+    ],
+    "cut": "Oval Faceted",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "7.72 ct"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Faceted"
+      },
+      {
+        "label": "Origin",
+        "value": "Myanmar"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Natural Kyanite, Oval",
+    "price": 24.05,
+    "min_price": 24.05,
+    "max_price": 24.05,
+    "has_price_range": false,
+    "image_url": "/images/product/img60.jpg",
+    "sort_type": {
+      "gems_type": "Kyanite",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural kyanite, weighing 3.05 ct, hand-cut in a oval faceted and sourced from Nepal.",
+    "description": "A one-of-a-kind natural kyanite, weighing 3.05 ct, hand-cut in a oval faceted and sourced from Nepal. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Kyanite",
+      "Natural Gemstone",
+      "Nepal"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Faceted"
+    ],
+    "cut": "Oval Faceted",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "3.05 ct"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Faceted"
+      },
+      {
+        "label": "Origin",
+        "value": "Nepal"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Natural Orange Sapphire, Oval",
+    "price": 17.12,
+    "min_price": 17.12,
+    "max_price": 17.12,
+    "has_price_range": false,
+    "image_url": "/images/product/img61.jpg",
+    "sort_type": {
+      "gems_type": "Orange Sapphire",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural orange sapphire, weighing 1.5 ct and measuring 4x3mm, hand-cut in a oval and sourced from Africa.",
+    "description": "A one-of-a-kind natural orange sapphire, weighing 1.5 ct and measuring 4x3mm, hand-cut in a oval and sourced from Africa. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Orange Sapphire",
+      "Natural Gemstone",
+      "Africa"
+    ],
+    "tags": [
+      "Natural",
+      "Oval"
+    ],
+    "cut": "Oval",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.5 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "4x3mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval"
+      },
+      {
+        "label": "Origin",
+        "value": "Africa"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Natural White Topaz, Pear",
+    "price": 9.65,
+    "min_price": 9.65,
+    "max_price": 9.65,
+    "has_price_range": false,
+    "image_url": "/images/product/img62.jpg",
+    "sort_type": {
+      "gems_type": "White Topaz",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural white topaz, weighing 1.35 ct and measuring 8.1x6 mm, hand-cut in a pear step cut and sourced from Brazil.",
+    "description": "A one-of-a-kind natural white topaz, weighing 1.35 ct and measuring 8.1x6 mm, hand-cut in a pear step cut and sourced from Brazil. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "White Topaz",
+      "Natural Gemstone",
+      "Brazil"
+    ],
+    "tags": [
+      "Natural",
+      "Pear",
+      "Step Cut"
+    ],
+    "cut": "Pear Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.35 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8.1x6 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Pear Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Brazil"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Natural Red Ruby, Oval",
+    "price": 37.05,
+    "min_price": 37.05,
+    "max_price": 37.05,
+    "has_price_range": false,
+    "image_url": "/images/product/img63.jpg",
+    "sort_type": {
+      "gems_type": "Red Ruby",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural red ruby, weighing 1.12 ct and measuring 7x5.2 mm, hand-cut in a oval step cut.",
+    "description": "A one-of-a-kind natural red ruby, weighing 1.12 ct and measuring 7x5.2 mm, hand-cut in a oval step cut. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Red Ruby",
+      "Natural Gemstone"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut",
+      "Heated"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.12 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "7x5.2 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Treatment",
+        "value": "Heated"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Natural Heated Ruby, Round",
+    "price": 10.28,
+    "min_price": 10.28,
+    "max_price": 10.28,
+    "has_price_range": false,
+    "image_url": "/images/product/img64.jpg",
+    "sort_type": {
+      "gems_type": "Heated Ruby",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural heated ruby, weighing 2.1 ct, hand-cut in a round cabochon and sourced from Myanmar.",
+    "description": "A one-of-a-kind natural heated ruby, weighing 2.1 ct, hand-cut in a round cabochon and sourced from Myanmar. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Heated Ruby",
+      "Natural Gemstone",
+      "Myanmar"
+    ],
+    "tags": [
+      "Natural",
+      "Round",
+      "Cabochon",
+      "Heated"
+    ],
+    "cut": "Round Cabochon",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "2.1 ct"
+      },
+      {
+        "label": "Cut",
+        "value": "Round Cabochon"
+      },
+      {
+        "label": "Origin",
+        "value": "Myanmar"
+      },
+      {
+        "label": "Treatment",
+        "value": "Heated"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Natural Blue Topaz, Oval",
+    "price": 11.37,
+    "min_price": 11.37,
+    "max_price": 11.37,
+    "has_price_range": false,
+    "image_url": "/images/product/img65.jpg",
+    "sort_type": {
+      "gems_type": "Blue Topaz",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural blue topaz, weighing 1.35 ct and measuring 6.9x6.9 mm, hand-cut in a oval step cut and sourced from Brazil.",
+    "description": "A one-of-a-kind natural blue topaz, weighing 1.35 ct and measuring 6.9x6.9 mm, hand-cut in a oval step cut and sourced from Brazil. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Blue Topaz",
+      "Natural Gemstone",
+      "Brazil"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.35 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "6.9x6.9 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Brazil"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Natural Myanmar Ruby, Oval",
+    "price": 9.43,
+    "min_price": 9.43,
+    "max_price": 9.43,
+    "has_price_range": false,
+    "image_url": "/images/product/img66.jpg",
+    "sort_type": {
+      "gems_type": "Myanmar Ruby",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural myanmar ruby, weighing 1.1 ct and measuring 5.9x5.9mm, hand-cut in a oval step cut and sourced from Myanmar.",
+    "description": "A one-of-a-kind natural myanmar ruby, weighing 1.1 ct and measuring 5.9x5.9mm, hand-cut in a oval step cut and sourced from Myanmar. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Myanmar Ruby",
+      "Natural Gemstone",
+      "Myanmar"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut",
+      "Heated"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.1 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "5.9x5.9mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Myanmar"
+      },
+      {
+        "label": "Treatment",
+        "value": "Heated"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Natural Brown Zircon, Oval",
+    "price": 16.55,
+    "min_price": 16.55,
+    "max_price": 16.55,
+    "has_price_range": false,
+    "image_url": "/images/product/img67.jpg",
+    "sort_type": {
+      "gems_type": "Brown Zircon",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural brown zircon, weighing 1.58 ct and measuring 6.7x5.6 mm, hand-cut in a oval step cut.",
+    "description": "A one-of-a-kind natural brown zircon, weighing 1.58 ct and measuring 6.7x5.6 mm, hand-cut in a oval step cut. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Brown Zircon",
+      "Natural Gemstone"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.58 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "6.7x5.6 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Natural Red Garnet, Oval",
+    "price": 11.63,
+    "min_price": 11.63,
+    "max_price": 11.63,
+    "has_price_range": false,
+    "image_url": "/images/product/img68.jpg",
+    "sort_type": {
+      "gems_type": "Red Garnet",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural red garnet, weighing 1.47 ct and measuring 8x6 mm, hand-cut in a oval step cut.",
+    "description": "A one-of-a-kind natural red garnet, weighing 1.47 ct and measuring 8x6 mm, hand-cut in a oval step cut. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Red Garnet",
+      "Natural Gemstone"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.47 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8x6 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Natural Citrine, Oval",
+    "price": 18.69,
+    "min_price": 18.69,
+    "max_price": 18.69,
+    "has_price_range": false,
+    "image_url": "/images/product/img69.jpg",
+    "sort_type": {
+      "gems_type": "Citrine",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural citrine, weighing 3 ct and measuring 10x8 mm, hand-cut in a oval step cut and sourced from Brazil.",
+    "description": "A one-of-a-kind natural citrine, weighing 3 ct and measuring 10x8 mm, hand-cut in a oval step cut and sourced from Brazil. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Citrine",
+      "Natural Gemstone",
+      "Brazil"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "3 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "10x8 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Brazil"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Natural Blue Topaz, Step Cut",
+    "price": 14.02,
+    "min_price": 14.02,
+    "max_price": 14.02,
+    "has_price_range": false,
+    "image_url": "/images/product/img70.jpg",
+    "sort_type": {
+      "gems_type": "Blue Topaz",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural blue topaz, weighing 2.6 ct and measuring 8.1 x 6.0 mm, hand-cut in a step cut and sourced from Brazil.",
+    "description": "A one-of-a-kind natural blue topaz, weighing 2.6 ct and measuring 8.1 x 6.0 mm, hand-cut in a step cut and sourced from Brazil. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Blue Topaz",
+      "Natural Gemstone",
+      "Brazil"
+    ],
+    "tags": [
+      "Natural",
+      "Step Cut",
+      "Unheated"
+    ],
+    "cut": "Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "2.6 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8.1 x 6.0 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Brazil"
+      },
+      {
+        "label": "Treatment",
+        "value": "Unheated"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Natural Green Tourmaline, Oval",
+    "price": 25.7,
+    "min_price": 25.7,
+    "max_price": 25.7,
+    "has_price_range": false,
+    "image_url": "/images/product/img71.jpg",
+    "sort_type": {
+      "gems_type": "Green Tourmaline",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural green tourmaline, weighing 1.84 ct, hand-cut in a oval step cut and sourced from Nigeria.",
+    "description": "A one-of-a-kind natural green tourmaline, weighing 1.84 ct, hand-cut in a oval step cut and sourced from Nigeria. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Green Tourmaline",
+      "Natural Gemstone",
+      "Nigeria"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.84 ct"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Nigeria"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Natural Orange Gemstone, Oval",
+    "price": 10.41,
+    "min_price": 10.41,
+    "max_price": 10.41,
+    "has_price_range": false,
+    "image_url": "/images/product/img72.jpg",
+    "sort_type": {
+      "gems_type": "Orange Gemstone",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural orange gemstone, weighing 0.75 ct and measuring 6x6 mm, hand-cut in a oval step cut and sourced from Madagascar.",
+    "description": "A one-of-a-kind natural orange gemstone, weighing 0.75 ct and measuring 6x6 mm, hand-cut in a oval step cut and sourced from Madagascar. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Orange Gemstone",
+      "Natural Gemstone",
+      "Madagascar"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "0.75 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "6x6 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Madagascar"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Natural Green Gemstone, Pear",
+    "price": 27.36,
+    "min_price": 27.36,
+    "max_price": 27.36,
+    "has_price_range": false,
+    "image_url": "/images/product/img73.jpg",
+    "sort_type": {
+      "gems_type": "Green Gemstone",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural green gemstone, weighing 2.22 ct and measuring 8×6 mm, hand-cut in a pear step cut and sourced from Pakistan.",
+    "description": "A one-of-a-kind natural green gemstone, weighing 2.22 ct and measuring 8×6 mm, hand-cut in a pear step cut and sourced from Pakistan. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Green Gemstone",
+      "Natural Gemstone",
+      "Pakistan"
+    ],
+    "tags": [
+      "Natural",
+      "Pear",
+      "Step Cut",
+      "Unenhanced"
+    ],
+    "cut": "Pear Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "2.22 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8×6 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Pear Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Pakistan"
+      },
+      {
+        "label": "Treatment",
+        "value": "Unenhanced"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Natural Baltic Amber, Oval",
+    "price": 15.3,
+    "min_price": 15.3,
+    "max_price": 15.3,
+    "has_price_range": false,
+    "image_url": "/images/product/img74.jpg",
+    "sort_type": {
+      "gems_type": "Baltic Amber",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural baltic amber, weighing 2 ct and measuring 11.9 x 10 mm, hand-cut in a oval cabochon.",
+    "description": "A one-of-a-kind natural baltic amber, weighing 2 ct and measuring 11.9 x 10 mm, hand-cut in a oval cabochon. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Baltic Amber",
+      "Natural Gemstone"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Cabochon"
+    ],
+    "cut": "Oval Cabochon",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "2 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "11.9 x 10 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Cabochon"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Natural Amethyst, Oval",
+    "price": 29.58,
+    "min_price": 29.58,
+    "max_price": 29.58,
+    "has_price_range": false,
+    "image_url": "/images/product/img75.jpg",
+    "sort_type": {
+      "gems_type": "Amethyst",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural amethyst, weighing 8.27 ct and measuring 16.1x12.1 mm, hand-cut in a oval step cut and sourced from Brazil.",
+    "description": "A one-of-a-kind natural amethyst, weighing 8.27 ct and measuring 16.1x12.1 mm, hand-cut in a oval step cut and sourced from Brazil. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Amethyst",
+      "Natural Gemstone",
+      "Brazil"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "8.27 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "16.1x12.1 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Brazil"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Natural Green Peridot, Pear",
+    "price": 19.71,
+    "min_price": 19.71,
+    "max_price": 19.71,
+    "has_price_range": false,
+    "image_url": "/images/product/img76.jpg",
+    "sort_type": {
+      "gems_type": "Green Peridot",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural green peridot, weighing 1.32 ct and measuring 8.2×6.2 mm, hand-cut in a pear step cut and sourced from Pakistan.",
+    "description": "A one-of-a-kind natural green peridot, weighing 1.32 ct and measuring 8.2×6.2 mm, hand-cut in a pear step cut and sourced from Pakistan. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Green Peridot",
+      "Natural Gemstone",
+      "Pakistan"
+    ],
+    "tags": [
+      "Natural",
+      "Pear",
+      "Step Cut"
+    ],
+    "cut": "Pear Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.32 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8.2×6.2 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Pear Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Pakistan"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Natural Red Garnet, Oval",
+    "price": 14.63,
+    "min_price": 14.63,
+    "max_price": 14.63,
+    "has_price_range": false,
+    "image_url": "/images/product/img77.jpg",
+    "sort_type": {
+      "gems_type": "Red Garnet",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural red garnet, weighing 2.89 ct and measuring 8.1x6.1mm, hand-cut in a oval step cut and sourced from Madagascar.",
+    "description": "A one-of-a-kind natural red garnet, weighing 2.89 ct and measuring 8.1x6.1mm, hand-cut in a oval step cut and sourced from Madagascar. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Red Garnet",
+      "Natural Gemstone",
+      "Madagascar"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "2.89 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8.1x6.1mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Madagascar"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Natural Dark Blue Kyanite, Oval",
+    "price": 9.86,
+    "min_price": 9.86,
+    "max_price": 9.86,
+    "has_price_range": false,
+    "image_url": "/images/product/img78.jpg",
+    "sort_type": {
+      "gems_type": "Dark Blue Kyanite",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural dark blue kyanite, weighing 1.6 ct and measuring 9.5 x 5.1 mm, hand-cut in a oval cabochon and sourced from Nepal.",
+    "description": "A one-of-a-kind natural dark blue kyanite, weighing 1.6 ct and measuring 9.5 x 5.1 mm, hand-cut in a oval cabochon and sourced from Nepal. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Dark Blue Kyanite",
+      "Natural Gemstone",
+      "Nepal"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Cabochon",
+      "Untreated"
+    ],
+    "cut": "Oval Cabochon",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "1.6 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "9.5 x 5.1 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Cabochon"
+      },
+      {
+        "label": "Origin",
+        "value": "Nepal"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Natural Rose Quartz, Round",
+    "price": 17.3,
+    "min_price": 17.3,
+    "max_price": 17.3,
+    "has_price_range": false,
+    "image_url": "/images/product/img79.jpg",
+    "sort_type": {
+      "gems_type": "Rose Quartz",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural rose quartz, weighing 20.7 ct, hand-cut in a round cabochon and sourced from Madagascar.",
+    "description": "A one-of-a-kind natural rose quartz, weighing 20.7 ct, hand-cut in a round cabochon and sourced from Madagascar. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Rose Quartz",
+      "Natural Gemstone",
+      "Madagascar"
+    ],
+    "tags": [
+      "Natural",
+      "Round",
+      "Cabochon"
+    ],
+    "cut": "Round Cabochon",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "20.7 ct"
+      },
+      {
+        "label": "Cut",
+        "value": "Round Cabochon"
+      },
+      {
+        "label": "Origin",
+        "value": "Madagascar"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems"
+      }
+    ]
   }
 ]
