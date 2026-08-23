@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import { Image } from 'antd'
+import { useRouter } from 'next/navigation'
 
 interface Props {
   productId?: string | number
@@ -22,6 +23,7 @@ const SpotlightProductCard: React.FC<Props> = (props) => {
     hasPriceRange = false,
     image_url = "/images/product/img1.jpg"
   } = props
+  const router = useRouter()
 
   return (
     <div className='flex h-full w-full flex-col border border-gray-300 hover:shadow-lg transition-shadow duration-300 ease-in-out hover:cursor-pointer'>
@@ -46,7 +48,7 @@ const SpotlightProductCard: React.FC<Props> = (props) => {
         <section className='mt-auto flex justify-center pt-5'>
           <p
             className="relative inline-block cursor-pointer pb-2 font-semibold tracking-wide after:absolute after:bottom-0 after:left-1/2 after:h-px after:w-8 after:-translate-x-1/2 after:bg-gray-400 after:transition-all after:duration-300 after:content-[''] hover:after:w-full hover:after:bg-gray-800"
-            onClick={() => console.log(productId)}
+            onClick={() => router.push(`/product/detail/${productId}`)}
           >
             SEE DETAILS
           </p>

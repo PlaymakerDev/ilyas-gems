@@ -16,10 +16,8 @@ const ProductDetailScreen: React.FC<Props> = (props) => {
 
   return (
     <div>
-      <TitleSection
-        product={product}
-      />
-      <ContentSection />
+      <TitleSection product={product} />
+      <ContentSection product={product} />
     </div>
   )
 }

@@ -1,2 +1,6 @@
 export { default as TitleSection } from './TitleSection'
 export { default as ContentSection } from './ContentSection'
+export { default as Gallery } from './Gallery'
+export { default as BuyBox } from './BuyBox'
+export { default as SpecsTabs } from './SpecsTabs'
+export { default as RelatedProducts } from './RelatedProducts'
