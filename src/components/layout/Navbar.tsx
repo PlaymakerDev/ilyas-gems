@@ -44,7 +44,12 @@ const Navbar: React.FC<Props> = (props) => {
             {renderNavMenu}
             <TbBaselineDensityMedium className='fs-22 mobile-side-menu' />
           </div>
-          <h1 className="absolute left-1/2 -translate-x-1/2">Ilyas Gems</h1>
+          <h1
+            className="absolute left-1/2 -translate-x-1/2 cursor-pointer"
+            onClick={() => router.push('/')}
+          >
+            Ilyas Gems
+          </h1>
           <TbSearch className='fs-22 ml-auto' />
         </div>
       </section>
