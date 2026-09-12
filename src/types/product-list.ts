@@ -31,4 +31,6 @@ export interface Product {
   availability?: string
   specifications?: ProductSpecification[]
   size_options?: ProductSizeOption[]
+  price_per_carat?: number
+  total_carat_weight?: number
 }

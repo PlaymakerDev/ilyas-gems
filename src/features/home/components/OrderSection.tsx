@@ -24,7 +24,7 @@ const OrderSection: React.FC<Props> = (props) => {
       <section className='order-1 h-1/2 lg:order-2 lg:h-full lg:w-1/2'>
         <figure className='h-full w-full overflow-hidden'>
           <Image
-            src={'/images/product/img1.jpg'}
+            src={'/images/product/img6.jpg'}
             alt={'img'}
             preview={false}
             width="100%"

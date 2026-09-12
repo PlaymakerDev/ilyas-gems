@@ -21,7 +21,7 @@ const SpotlightProductCard: React.FC<Props> = (props) => {
     minPrice = 0,
     maxPrice = 0,
     hasPriceRange = false,
-    image_url = "/images/product/img1.jpg"
+    image_url = "/images/product/img6.jpg"
   } = props
   const router = useRouter()
 

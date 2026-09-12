@@ -1,154 +1,5 @@
 [
   {
-    "id": 1,
-    "name": "Lab Created Hydrothermal Emerald, Oval",
-    "price": 26.15,
-    "min_price": 26.15,
-    "max_price": 245,
-    "has_price_range": true,
-    "image_url": "/images/product/img1.jpg",
-    "sort_type": {
-      "gems_type": "Emerald",
-      "gems_category": "LABS_CREATE"
-    }
-  },
-  {
-    "id": 2,
-    "name": "Natural Tanzanite, Round AAA",
-    "price": 28,
-    "min_price": 28,
-    "max_price": 1795,
-    "has_price_range": true,
-    "image_url": "/images/product/img2.jpg",
-    "sort_type": {
-      "gems_type": "Tanzanite",
-      "gems_category": "NATURAL"
-    }
-  },
-  {
-    "id": 3,
-    "name": "Natural Aquamarine, Round AAA",
-    "price": 23.8,
-    "min_price": 23.8,
-    "max_price": 990,
-    "has_price_range": true,
-    "image_url": "/images/product/img3.jpg",
-    "sort_type": {
-      "gems_type": "Aquamarine",
-      "gems_category": "NATURAL"
-    }
-  },
-  {
-    "id": 4,
-    "name": "Lab Created Pulled Czochralski Blue Paraiba, Cushion",
-    "price": 29.15,
-    "min_price": 29.15,
-    "max_price": 1220,
-    "has_price_range": true,
-    "image_url": "/images/product/img4.jpg",
-    "sort_type": {
-      "gems_type": "Blue Paraiba",
-      "gems_category": "LABS_CREATE"
-    }
-  },
-  {
-    "id": 5,
-    "name": "Lab Created Blue Sapphire, Round",
-    "price": 5.3,
-    "min_price": 5.3,
-    "max_price": 13.4,
-    "has_price_range": true,
-    "image_url": "/images/product/img5.jpg",
-    "sort_type": {
-      "gems_type": "Blue Sapphire",
-      "gems_category": "LABS_CREATE"
-    },
-    "short_description": "A brilliant lab-created blue sapphire in a classic round cut, prized for its rich, saturated colour and clean sparkle at an accessible price.",
-    "description": "Glass gemstones have graced fine jewellery for generations, valued for the same qualities that define natural stones — cut, clarity, colour and carat weight. This lab-created blue sapphire is precision-faceted in a round brilliant cut, delivering vivid saturation and clean fire without the natural-stone price tag. Its wide range of sizes makes it equally suited to statement rings, delicate pendants and drop earrings.",
-    "categories": [
-      "Blue Sapphire",
-      "Glass Gemstone",
-      "Lab Created"
-    ],
-    "tags": [
-      "Lab Created",
-      "Round Cut",
-      "Simulated Sapphire"
-    ],
-    "cut": "Round Brilliant",
-    "availability": "In stock — 30 sizes available, 1.00mm to 15.00mm",
-    "specifications": [
-      {
-        "label": "Gemstone Type",
-        "value": "Glass (Lab-Created)"
-      },
-      {
-        "label": "Cut",
-        "value": "Round"
-      },
-      {
-        "label": "Mohs Hardness",
-        "value": "4 – 6.6"
-      },
-      {
-        "label": "Specific Gravity",
-        "value": "2.39 – 4.00"
-      },
-      {
-        "label": "Refractive Index",
-        "value": "1.48 – 1.70"
-      },
-      {
-        "label": "Crystal System",
-        "value": "Amorphous"
-      },
-      {
-        "label": "Fracture",
-        "value": "Conchoidal"
-      },
-      {
-        "label": "Luster",
-        "value": "Vitreous"
-      },
-      {
-        "label": "Transparency",
-        "value": "Transparent, Translucent, Opaque"
-      }
-    ],
-    "size_options": [
-      {
-        "size": "1.00mm",
-        "price_per_piece": 0.0265,
-        "pieces_per_lot": 200
-      },
-      {
-        "size": "3.00mm",
-        "price_per_piece": 0.031,
-        "pieces_per_lot": 200
-      },
-      {
-        "size": "5.00mm",
-        "price_per_piece": 0.075,
-        "pieces_per_lot": 100
-      },
-      {
-        "size": "8.00mm",
-        "price_per_piece": 0.196,
-        "pieces_per_lot": 50
-      },
-      {
-        "size": "11.00mm",
-        "price_per_piece": 0.464,
-        "pieces_per_lot": 25
-      },
-      {
-        "size": "15.00mm",
-        "price_per_piece": 0.893,
-        "pieces_per_lot": 15
-      }
-    ]
-  },
-  {
     "id": 6,
     "name": "Glass Red Ruby, Round",
     "price": 5.3,
@@ -364,32 +215,6 @@
         "pieces_per_lot": 15
       }
     ]
-  },
-  {
-    "id": 7,
-    "name": "Natural Peridot, Round",
-    "price": 22.4,
-    "min_price": 22.4,
-    "max_price": 560,
-    "has_price_range": true,
-    "image_url": "/images/product/img1.jpg",
-    "sort_type": {
-      "gems_type": "Peridot",
-      "gems_category": "NATURAL"
-    }
-  },
-  {
-    "id": 8,
-    "name": "Natural Amethyst Rough",
-    "price": 45,
-    "min_price": 45,
-    "max_price": 45,
-    "has_price_range": false,
-    "image_url": "/images/product/img2.jpg",
-    "sort_type": {
-      "gems_type": "Amethyst",
-      "gems_category": "NATURAL"
-    }
   },
   {
     "id": 9,
@@ -4022,5 +3847,277 @@
         "value": "Bangkok Gems"
       }
     ]
+  },
+  {
+    "id": 80,
+    "name": "Natural Labradorite, Oval",
+    "price": 49.99,
+    "min_price": 49.99,
+    "max_price": 49.99,
+    "has_price_range": false,
+    "image_url": "/images/product/img80.jpg",
+    "sort_type": {
+      "gems_type": "Labradorite",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural labradorite, weighing 49.67 ct and measuring 36x22mm, hand-cut in a oval cabochon and sourced from Madagascar.",
+    "description": "A one-of-a-kind natural labradorite, weighing 49.67 ct and measuring 36x22mm, hand-cut in a oval cabochon and sourced from Madagascar. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Labradorite",
+      "Natural Gemstone",
+      "Madagascar"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Cabochon"
+    ],
+    "cut": "Oval Cabochon",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "49.67 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "36x22mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Cabochon"
+      },
+      {
+        "label": "Origin",
+        "value": "Madagascar"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Natural Ruby, Oval",
+    "price": 41.92,
+    "min_price": 41.92,
+    "max_price": 41.92,
+    "has_price_range": false,
+    "image_url": "/images/product/img81.jpg",
+    "sort_type": {
+      "gems_type": "Ruby",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural ruby, weighing 5.72 ct and measuring 9.8–10.1 x 7.8–8.1 mm, hand-cut in a oval step cut and sourced from Thailand.",
+    "description": "A one-of-a-kind natural ruby, weighing 5.72 ct and measuring 9.8–10.1 x 7.8–8.1 mm, hand-cut in a oval step cut and sourced from Thailand. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Ruby",
+      "Natural Gemstone",
+      "Thailand"
+    ],
+    "tags": [
+      "Natural",
+      "Oval",
+      "Step Cut"
+    ],
+    "cut": "Oval Step Cut",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "5.72 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "9.8–10.1 x 7.8–8.1 mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval Step Cut"
+      },
+      {
+        "label": "Origin",
+        "value": "Thailand"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Natural Blue Topaz, Oval",
+    "price": 28.15,
+    "min_price": 28.15,
+    "max_price": 28.15,
+    "has_price_range": false,
+    "image_url": "/images/product/img82.jpg",
+    "sort_type": {
+      "gems_type": "Blue Topaz",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A one-of-a-kind natural blue topaz, weighing 18.26 ct and measuring 19.5x14.3mm, hand-cut in a oval and sourced from Brazil.",
+    "description": "A one-of-a-kind natural blue topaz, weighing 18.26 ct and measuring 19.5x14.3mm, hand-cut in a oval and sourced from Brazil. As with all natural gemstones, colour, clarity and exact proportions are unique to this individual stone.",
+    "categories": [
+      "Blue Topaz",
+      "Natural Gemstone",
+      "Brazil"
+    ],
+    "tags": [
+      "Natural",
+      "Oval"
+    ],
+    "cut": "Oval",
+    "availability": "1 in stock — one-of-a-kind natural stone",
+    "specifications": [
+      {
+        "label": "Carat Weight",
+        "value": "18.26 ct"
+      },
+      {
+        "label": "Dimensions",
+        "value": "19.5x14.3mm"
+      },
+      {
+        "label": "Cut",
+        "value": "Oval"
+      },
+      {
+        "label": "Origin",
+        "value": "Brazil"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Gem Love"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Natural Red Ruby, Wholesale Parcel",
+    "price": 3101.43,
+    "min_price": 3101.43,
+    "max_price": 3101.43,
+    "has_price_range": false,
+    "image_url": "/images/product/img83.jpg",
+    "sort_type": {
+      "gems_type": "Ruby",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A wholesale parcel of natural red rubies direct from Thailand, sold as a single mixed lot totalling 385.75 carats.",
+    "description": "A wholesale parcel of natural red rubies, sourced direct from Thailand. Sold as a single mixed lot totalling 385.75 carats, averaging 6.22 ct per piece with sizes ranging roughly 8x6mm to 12x10mm. Ideal for cutters, wholesalers and jewellery manufacturers buying in bulk. As with all natural gemstones, colour and clarity vary piece to piece across the parcel.",
+    "categories": [
+      "Ruby",
+      "Natural Gemstone",
+      "Thailand",
+      "Wholesale Parcel"
+    ],
+    "tags": [
+      "Natural",
+      "Wholesale",
+      "Parcel",
+      "Thailand"
+    ],
+    "cut": "Mixed",
+    "availability": "1 parcel in stock — sold as a complete lot",
+    "specifications": [
+      {
+        "label": "Total Weight",
+        "value": "385.75 ct"
+      },
+      {
+        "label": "Avg Weight/Piece",
+        "value": "6.22 ct"
+      },
+      {
+        "label": "Avg Size",
+        "value": "8x6mm – 12x10mm"
+      },
+      {
+        "label": "Origin",
+        "value": "Thailand"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Ilyasji Gems (Instagram/WhatsApp)"
+      }
+    ],
+    "price_per_carat": 8.04,
+    "total_carat_weight": 385.75
+  },
+  {
+    "id": 84,
+    "name": "Natural Blue Sapphire, Wholesale Parcel",
+    "price": 1543.83,
+    "min_price": 1543.83,
+    "max_price": 1543.83,
+    "has_price_range": false,
+    "image_url": "/images/product/img84.jpg",
+    "sort_type": {
+      "gems_type": "Blue Sapphire",
+      "gems_category": "NATURAL"
+    },
+    "short_description": "A wholesale parcel of natural blue sapphires direct from Thailand, sold as a single mixed lot totalling 958.9 carats.",
+    "description": "A wholesale parcel of natural blue sapphires, sourced direct from Thailand. Sold as a single mixed lot totalling 958.9 carats, averaging 20.85 ct per piece with sizes ranging roughly 8x6mm to 12x10mm. Ideal for cutters, wholesalers and jewellery manufacturers buying in bulk. As with all natural gemstones, colour and clarity vary piece to piece across the parcel.",
+    "categories": [
+      "Blue Sapphire",
+      "Natural Gemstone",
+      "Thailand",
+      "Wholesale Parcel"
+    ],
+    "tags": [
+      "Natural",
+      "Wholesale",
+      "Parcel",
+      "Thailand"
+    ],
+    "cut": "Mixed",
+    "availability": "1 parcel in stock — sold as a complete lot",
+    "specifications": [
+      {
+        "label": "Total Weight",
+        "value": "958.9 ct"
+      },
+      {
+        "label": "Avg Weight/Piece",
+        "value": "20.85 ct"
+      },
+      {
+        "label": "Avg Size",
+        "value": "8x6mm – 12x10mm"
+      },
+      {
+        "label": "Origin",
+        "value": "Thailand"
+      },
+      {
+        "label": "Treatment",
+        "value": "Untreated / not specified"
+      },
+      {
+        "label": "Sourced From",
+        "value": "Bangkok Gems (Instagram)"
+      }
+    ],
+    "price_per_carat": 1.61,
+    "total_carat_weight": 958.9
   }
 ]

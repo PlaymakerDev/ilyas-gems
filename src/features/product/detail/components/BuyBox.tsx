@@ -26,15 +26,21 @@ const BuyBox: React.FC<Props> = (props) => {
   const [quantity, setQuantity] = useState(1)
 
   const selectedSize = selectedIndex !== null ? sizeOptions[selectedIndex] : undefined
-  const canAddToCart = !hasSizes || selectedSize !== undefined
 
   const lotTotal = selectedSize ? selectedSize.price_per_piece * selectedSize.pieces_per_lot : undefined
 
+  const isParcel = product?.price_per_carat !== undefined && product?.total_carat_weight !== undefined
+  const [caratQty, setCaratQty] = useState(() => Math.min(10, product?.total_carat_weight ?? 10))
+  const parcelSubtotal = isParcel ? product!.price_per_carat! * caratQty : undefined
+
+  const canAddToCart = !hasSizes || selectedSize !== undefined
+
   const priceLabel = useMemo(() => {
     if (lotTotal !== undefined) return `$${lotTotal.toFixed(2)}`
+    if (isParcel) return `$${product?.price_per_carat}/ct`
     if (product?.has_price_range) return `$${product.min_price.toFixed(2)} – $${product.max_price.toFixed(2)}`
     return `$${(product?.price ?? 0).toFixed(2)}`
-  }, [lotTotal, product])
+  }, [lotTotal, isParcel, product])
 
   return (
     <div className="flex flex-col lg:sticky lg:top-24 lg:self-start">
@@ -100,22 +106,67 @@ const BuyBox: React.FC<Props> = (props) => {
         </div>
       )}
 
+      {isParcel && (
+        <div className="mt-4 grid grid-cols-3 divide-x divide-gray-200 rounded-lg border border-gray-200 bg-gray-50">
+          <div className="px-4 py-3">
+            <p className="fs-11 uppercase tracking-wide text-gray-500">Price/Carat</p>
+            <p className="mt-0.5 fs-14 font-semibold text-gray-900">${product?.price_per_carat}</p>
+          </div>
+          <div className="px-4 py-3">
+            <p className="fs-11 uppercase tracking-wide text-gray-500">Available</p>
+            <p className="mt-0.5 fs-14 font-semibold text-gray-900">{product?.total_carat_weight} ct</p>
+          </div>
+          <div className="px-4 py-3">
+            <p className="fs-11 uppercase tracking-wide text-gray-500">Your Total</p>
+            <p className="mt-0.5 fs-14 font-semibold text-gray-900">${parcelSubtotal?.toFixed(2)}</p>
+          </div>
+        </div>
+      )}
+
+      {isParcel && (
+        <div>
+          <div className="mt-4 flex items-center justify-between">
+            <p className="fs-12 font-semibold uppercase tracking-wide text-gray-500">Carats wanted</p>
+            <button
+              type="button"
+              className="fs-12 font-medium text-gray-500 underline decoration-gray-300 underline-offset-2 hover:text-gray-900"
+              onClick={() => setCaratQty(product!.total_carat_weight!)}
+            >
+              Buy full parcel ({product?.total_carat_weight} ct)
+            </button>
+          </div>
+          <InputNumber
+            min={1}
+            max={product?.total_carat_weight}
+            value={caratQty}
+            onChange={(value) => setCaratQty(value ?? 1)}
+            size="large"
+            suffix="ct"
+            className="mt-2 w-full"
+          />
+        </div>
+      )}
+
       <div className="mt-6 flex items-center gap-3">
-        <InputNumber
-          min={1}
-          max={99}
-          value={quantity}
-          onChange={(value) => setQuantity(value ?? 1)}
-          size="large"
-          className="w-20!"
-        />
+        {!isParcel && (
+          <InputNumber
+            min={1}
+            max={99}
+            value={quantity}
+            onChange={(value) => setQuantity(value ?? 1)}
+            size="large"
+            className="w-20!"
+          />
+        )}
         <Button
           type="primary"
           size="large"
           icon={<ShoppingOutlined />}
           disabled={!canAddToCart}
           className="flex-1"
-          onClick={() => console.log({ productId: product?.id, quantity, size: selectedSize?.size })}
+          onClick={() => console.log(isParcel
+            ? { productId: product?.id, caratQty }
+            : { productId: product?.id, quantity, size: selectedSize?.size })}
         >
           Add to Cart
         </Button>
