@@ -1,26 +1,16 @@
 [
   {
     "id": 1,
-    "title": "Lab Created Diamond",
-    "description": "Pure brilliance, responsibly created.",
-    "image_url": "/images/category/img1.jpg"
+    "title": "Lab Created Gems",
+    "description": "Beautiful gemstones grown in controlled environments, offering the same brilliance and quality as natural stones with a modern and accessible approach.",
+    "image_url": "/images/product/img6.jpg",
+    "category": "LABS_CREATE"
   },
   {
     "id": 2,
-    "title": "Lab Created Diamond",
-    "description": "Pure brilliance, responsibly created.",
-    "image_url": "/images/category/img2.jpg"
-  },
-  {
-    "id": 3,
-    "title": "Lab Created Diamond",
-    "description": "Pure brilliance, responsibly created.",
-    "image_url": "/images/category/img3.jpg"
-  },
-  {
-    "id": 4,
-    "title": "Lab Created Diamond",
-    "description": "Pure brilliance, responsibly created.",
-    "image_url": "/images/category/img4.jpg"
+    "title": "Natural Gems",
+    "description": "Authentic gemstones formed by nature over millions of years, each with its own unique character, rarity, and timeless beauty.",
+    "image_url": "/images/category/img1.jpg",
+    "category": "NATURAL"
   }
 ]
