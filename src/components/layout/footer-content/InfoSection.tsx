@@ -1,8 +1,7 @@
 import React from 'react'
 import AboutUs from './AboutUs'
 import QuickLink from './QuickLink'
-import Information from './Information'
-import GetInTouch from './GetInTouch'
+import FollowUs from './FollowUs'
 
 interface Props {
 
@@ -12,12 +11,11 @@ const InfoSection: React.FC<Props> = (props) => {
   const { } = props
 
   return (
-    <div className='p-10'>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
+    <div className='bg-gray-50 border-t border-gray-200 p-10'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
         <AboutUs />
         <QuickLink />
-        <Information />
-        <GetInTouch />
+        <FollowUs />
       </div>
     </div>
   )

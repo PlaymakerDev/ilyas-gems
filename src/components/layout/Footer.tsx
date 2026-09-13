@@ -1,5 +1,4 @@
 import React from 'react'
-import SubscribeNewsLetter from './footer-content/SubscribeNewsLetter'
 import InfoSection from './footer-content/InfoSection'
 import CopyrightSection from './footer-content/CopyrightSection'
 
@@ -12,9 +11,6 @@ const Footer: React.FC<Props> = (props) => {
 
   return (
     <footer>
-      <section>
-        <SubscribeNewsLetter />
-      </section>
       <section>
         <InfoSection />
       </section>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Lato, Playfair_Display, Montserrat } from "next/font/google";
+import { Geist, Geist_Mono, Raleway, Cormorant_Garamond, Montserrat } from "next/font/google";
 import "../styles/globals.css";
 import { MainLayout } from '../components/layout'
 import { AntdRegistry } from "@ant-design/nextjs-registry";
@@ -16,16 +16,16 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const lato = Lato({
-  variable: "--font-lato",
+const raleway = Raleway({
+  variable: "--font-raleway",
   subsets: ["latin"],
-  weight: ["100", "300", "400", "700", "900"]
+  weight: ["400", "500", "600", "700"]
 });
 
-const playfairDisplay = Playfair_Display({
-  variable: "--font-playfair-display",
+const cormorantGaramond = Cormorant_Garamond({
+  variable: "--font-cormorant-garamond",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"]
+  weight: ["400", "500", "600", "700"]
 });
 
 const montserrat = Montserrat({
@@ -50,7 +50,7 @@ export default function RootLayout({
       data-scroll-behavior="smooth"
     >
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${lato.variable} ${playfairDisplay.variable} ${montserrat.variable} h-full antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${raleway.variable} ${cormorantGaramond.variable} ${montserrat.variable} h-full antialiased`}
       >
         <AntdRegistry>
           <ConfigProvider

@@ -1,21 +1,21 @@
 // Define social links with proper typing
 export const SOCIAL_LINKS = [
   {
-    name: 'Discord',
-    icon: '/images/discord-icon.svg',
-    url: '#', // Add your actual Discord link
-    alt: 'Discord profile',
+    name: 'Facebook',
+    icon: '/images/icon/facebook-icon.svg',
+    url: '#', // Add your actual Facebook link
+    alt: 'Facebook Page',
   },
   {
-    name: 'LinkedIn',
-    icon: '/images/linkedin.svg',
-    url: 'https://www.linkedin.com/in/tanus-witpattanakul-8a33791ba/', // Add your actual LinkedIn link
-    alt: 'LinkedIn profile',
+    name: 'LINE',
+    icon: '/images/icon/line-icon.svg',
+    url: '#', // Add your actual LINE link
+    alt: 'LINE Official Account',
   },
   {
-    name: 'GitHub',
-    icon: '/images/github-icon.svg',
-    url: 'https://github.com/PlaymakerDev', // Add your actual LinkedIn link
-    alt: 'GitHub profile',
+    name: 'Instagram',
+    icon: '/images/icon/instagram-icon.svg',
+    url: '#', // Add your actual Instagram link
+    alt: 'Instagram profile',
   },
 ] as const

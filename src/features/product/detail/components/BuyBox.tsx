@@ -1,14 +1,21 @@
 'use client'
 
-import React, { useMemo, useState } from 'react'
-import { Button, InputNumber } from 'antd'
-import { HeartOutlined, ShoppingOutlined } from '@ant-design/icons'
+import React, { useCallback, useMemo, useState } from 'react'
+import { Button, Input, InputNumber, Modal } from 'antd'
+import { MailOutlined } from '@ant-design/icons'
 import { TbCertificate, TbShieldCheck, TbTruck } from 'react-icons/tb'
+import { Controller, useForm } from 'react-hook-form'
 import type { Product } from '@/types/product-list'
 
 interface Props {
   product?: Product
   categoryLabel?: string
+}
+
+interface QuoteFormValues {
+  name: string
+  email: string
+  message: string
 }
 
 const trustPoints = [
@@ -23,7 +30,6 @@ const BuyBox: React.FC<Props> = (props) => {
   const hasSizes = sizeOptions.length > 0
 
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null)
-  const [quantity, setQuantity] = useState(1)
 
   const selectedSize = selectedIndex !== null ? sizeOptions[selectedIndex] : undefined
 
@@ -33,7 +39,7 @@ const BuyBox: React.FC<Props> = (props) => {
   const [caratQty, setCaratQty] = useState(() => Math.min(10, product?.total_carat_weight ?? 10))
   const parcelSubtotal = isParcel ? product!.price_per_carat! * caratQty : undefined
 
-  const canAddToCart = !hasSizes || selectedSize !== undefined
+  const canRequestQuote = !hasSizes || selectedSize !== undefined
 
   const priceLabel = useMemo(() => {
     if (lotTotal !== undefined) return `$${lotTotal.toFixed(2)}`
@@ -41,6 +47,51 @@ const BuyBox: React.FC<Props> = (props) => {
     if (product?.has_price_range) return `$${product.min_price.toFixed(2)} – $${product.max_price.toFixed(2)}`
     return `$${(product?.price ?? 0).toFixed(2)}`
   }, [lotTotal, isParcel, product])
+
+  const quoteSelectionLabel = useMemo(() => {
+    const parts: string[] = []
+    if (selectedSize) parts.push(`Size ${selectedSize.size}`)
+    if (isParcel) parts.push(`${caratQty} ct`)
+    return parts.join(' · ')
+  }, [selectedSize, isParcel, caratQty])
+
+  const [isQuoteModalOpen, setIsQuoteModalOpen] = useState(false)
+  const [quoteSubmitError, setQuoteSubmitError] = useState<string | null>(null)
+  const [isQuoteSent, setIsQuoteSent] = useState(false)
+
+  const { control, handleSubmit, reset, formState: { isSubmitting } } = useForm<QuoteFormValues>({
+    defaultValues: { name: '', email: '', message: '' },
+  })
+
+  const openQuoteModal = useCallback(() => {
+    setQuoteSubmitError(null)
+    setIsQuoteSent(false)
+    setIsQuoteModalOpen(true)
+  }, [])
+
+  const onSubmitQuote = useCallback(async (data: QuoteFormValues) => {
+    setQuoteSubmitError(null)
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: data.name,
+          email: data.email,
+          subject: `Quotation request: ${product?.name ?? 'Product'}`,
+          message: `Product: ${product?.name ?? '-'}${quoteSelectionLabel ? `\nSelection: ${quoteSelectionLabel}` : ''}\n\n${data.message || '(no message provided)'}`,
+        }),
+      })
+      if (!res.ok) {
+        const body = await res.json().catch(() => null)
+        throw new Error(body?.error || 'Failed to send request.')
+      }
+      setIsQuoteSent(true)
+      reset()
+    } catch (err) {
+      setQuoteSubmitError(err instanceof Error ? err.message : 'Failed to send request.')
+    }
+  }, [product, quoteSelectionLabel, reset])
 
   return (
     <div className="flex flex-col lg:sticky lg:top-24 lg:self-start">
@@ -148,30 +199,72 @@ const BuyBox: React.FC<Props> = (props) => {
       )}
 
       <div className="mt-6 flex items-center gap-3">
-        {!isParcel && (
-          <InputNumber
-            min={1}
-            max={99}
-            value={quantity}
-            onChange={(value) => setQuantity(value ?? 1)}
-            size="large"
-            className="w-20!"
-          />
-        )}
         <Button
           type="primary"
           size="large"
-          icon={<ShoppingOutlined />}
-          disabled={!canAddToCart}
+          icon={<MailOutlined />}
+          disabled={!canRequestQuote}
           className="flex-1"
-          onClick={() => console.log(isParcel
-            ? { productId: product?.id, caratQty }
-            : { productId: product?.id, quantity, size: selectedSize?.size })}
+          onClick={openQuoteModal}
         >
-          Add to Cart
+          Request Quotation
         </Button>
-        <Button size="large" icon={<HeartOutlined />} aria-label="Add to wishlist" />
       </div>
+
+      <Modal
+        title="Request a Quotation"
+        open={isQuoteModalOpen}
+        onCancel={() => setIsQuoteModalOpen(false)}
+        footer={null}
+        destroyOnHidden
+      >
+        <p className="mb-4 text-gray-600">{product?.name}{quoteSelectionLabel ? ` — ${quoteSelectionLabel}` : ''}</p>
+
+        {isQuoteSent ? (
+          <p className="text-green-600">Thanks — your quotation request has been sent. We usually reply within 24 hours.</p>
+        ) : (
+          <form onSubmit={handleSubmit(onSubmitQuote)} className="space-y-4">
+            <Controller
+              control={control}
+              name="name"
+              rules={{ required: true }}
+              render={({ field }) => (
+                <fieldset>
+                  <label className="mb-1 block fs-12 font-medium text-gray-600">Your name</label>
+                  <Input {...field} size="large" placeholder="Your name" />
+                </fieldset>
+              )}
+            />
+            <Controller
+              control={control}
+              name="email"
+              rules={{ required: true }}
+              render={({ field }) => (
+                <fieldset>
+                  <label className="mb-1 block fs-12 font-medium text-gray-600">Your email</label>
+                  <Input {...field} type="email" size="large" placeholder="Your email" />
+                </fieldset>
+              )}
+            />
+            <Controller
+              control={control}
+              name="message"
+              render={({ field }) => (
+                <fieldset>
+                  <label className="mb-1 block fs-12 font-medium text-gray-600">Message (optional)</label>
+                  <Input.TextArea {...field} rows={4} placeholder="Any specific requirements?" />
+                </fieldset>
+              )}
+            />
+            <Button type="primary" size="large" htmlType="submit" loading={isSubmitting} block>
+              Send Request
+            </Button>
+            {quoteSubmitError && (
+              <p className="fs-12 text-red-600">{quoteSubmitError}</p>
+            )}
+          </form>
+        )}
+      </Modal>
 
       {product?.availability && (
         <p className="mt-4 flex items-center gap-2 fs-12 text-gray-600">

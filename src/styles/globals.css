@@ -40,8 +40,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-heading: var(--font-playfair-display);
-  --font-body: var(--font-montserrat);
+  --font-heading: var(--font-cormorant-garamond);
+  --font-body: var(--font-raleway);
 }
 
 html {
@@ -51,9 +51,8 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-lato), Arial, Helvetica, sans-serif;
+  font-family: var(--font-raleway), Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
 }
 
 img {
@@ -79,7 +78,7 @@ h3,
 h4,
 h5,
 h6 {
-  /* font-family: var(--font-playfair-display), Georgia, serif; */
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
   font-weight: 700;
 }
 

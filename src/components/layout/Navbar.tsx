@@ -1,13 +1,10 @@
 'use client'
 
 import React, { useMemo } from 'react'
-// import productCategoryData from '@/mock/product-category.json'
-// import type { ProductCategoryEntry } from '@/types/product-category'
 import menu from '@/configs/menu'
-import { TbBaselineDensityMedium, TbSearch } from "react-icons/tb";
-import { AnnouncementBar } from '@/components/common'
-// import CategoryMegaMenu from './CategoryMegaMenu'
+import { TbBaselineDensityMedium } from "react-icons/tb";
 import { useRouter } from 'next/navigation'
+import { Image } from 'antd';
 
 interface Props {
 
@@ -36,25 +33,31 @@ const Navbar: React.FC<Props> = (props) => {
 
   return (
     <nav className="relative">
-      <AnnouncementBar message="We Offer Unconditional Guarantees On Everything We Sell — Better Than Money-Back Guarantee!" />
+      {/* <AnnouncementBar message="We Offer Unconditional Guarantees On Everything We Sell — Better Than Money-Back Guarantee!" /> */}
 
       <section>
-        <div className="relative flex items-center px-5 py-8">
-          <div className="flex items-center gap-4">
-            {renderNavMenu}
-            <TbBaselineDensityMedium className='fs-22 mobile-side-menu' />
-          </div>
-          <h1
-            className="absolute left-1/2 -translate-x-1/2 cursor-pointer"
+        <div className="relative flex justify-between items-center p-5">
+          <Image
+            src="/images/icon/logo.png"
+            alt="Ilyas Gems Logo"
+            width={100}
+            height={50}
+            className="cursor-pointer"
+            onClick={() => router.push('/')}
+            preview={false}
+          />
+          {/* <h1
+            className="cursor-pointer"
             onClick={() => router.push('/')}
           >
             Ilyas Gems
-          </h1>
-          <TbSearch className='fs-22 ml-auto' />
+          </h1> */}
+          <div className="flex items-center gap-5">
+            {renderNavMenu}
+            <TbBaselineDensityMedium className='fs-22 mobile-side-menu' />
+          </div>
         </div>
       </section>
-
-      {/* <CategoryMegaMenu categories={productCategories} /> */}
     </nav>
   )
 }
