@@ -17,7 +17,7 @@ const FollowUs: React.FC<Props> = (props) => {
         href={social.url}
         target="_blank"
         rel="noopener noreferrer"
-        className="rounded-full bg-white w-12 h-12 overflow-hidden flex items-center justify-center hover:cursor-pointer hover:bg-gray-50 transition-colors duration-200 shadow-sm hover:shadow-md"
+        className="flex items-center justify-center hover:cursor-pointer opacity-80 hover:opacity-100 transition-opacity duration-200"
         aria-label={`Visit ${social.name} profile`}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}

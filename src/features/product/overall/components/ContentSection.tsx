@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { Suspense, useState } from 'react'
 import { FormSearchProduct, ProductList } from '.'
 import type { ProductFilters } from './FormSearchProduct'
 
@@ -22,7 +22,9 @@ const ContentSection: React.FC<Props> = (props) => {
   return (
     <div className='p-5'>
       <section>
-        <FormSearchProduct onFilterChange={setFilters} />
+        <Suspense fallback={null}>
+          <FormSearchProduct onFilterChange={setFilters} />
+        </Suspense>
       </section>
       <section className='mt-4'>
         <ProductList filters={filters} />

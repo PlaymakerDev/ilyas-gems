@@ -1,4 +1,7 @@
+'use client'
+
 import { Image } from 'antd'
+import { useRouter } from 'next/navigation'
 import React from 'react'
 
 interface Props {
@@ -7,6 +10,7 @@ interface Props {
 
 const DiscoverSection: React.FC<Props> = (props) => {
   const { } = props
+  const router = useRouter()
 
   return (
     <div className='flex h-screen flex-col lg:flex-row'>
@@ -27,10 +31,11 @@ const DiscoverSection: React.FC<Props> = (props) => {
         <div className='px-6 sm:px-10 lg:px-20'>
           <h1 className='mb-5'>Rooted in Passion, Refined by Experience</h1>
           <p className='mb-5'>
-            {`Since 2012, every piece we've created has carried the same values: passion, precision, and a love for beautiful things. With a decade of experience and a global clientele, we continue to shape each gemstone with care—because what we do it&apos;s who we are.`}
+            {`Since 2012, every piece we’ve created has carried the same values: passion, precision, and a love for beautiful things. With a decade of experience and a global clientele, we continue to shape each gemstone with care—because what we do it's who we are.`}
           </p>
           <p
             className="relative inline-block cursor-pointer pb-2 font-semibold tracking-wide after:absolute after:bottom-0 after:left-1/2 after:h-px after:w-8 after:-translate-x-1/2 after:bg-gray-400 after:transition-all after:duration-300 after:content-[''] hover:after:w-full hover:after:bg-gray-800"
+            onClick={() => router.push('/product')}
           >
             Discover the selection
           </p>

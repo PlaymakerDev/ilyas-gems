@@ -4,7 +4,9 @@ import { SearchOutlined, SortAscendingOutlined, SortDescendingOutlined } from '@
 import { Button, Col, Input, Row, Select } from 'antd'
 import React, { useEffect, useMemo, useState } from 'react'
 import { Controller, useForm, useWatch } from 'react-hook-form'
+import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import PRODUCT_LIST from '@/mock/product-list.json'
+import { CATEGORY } from '@/constants'
 
 export interface ProductFilters {
   keyword: string
@@ -25,6 +27,9 @@ interface FormValues {
 
 const FormSearchProduct: React.FC<Props> = (props) => {
   const { onFilterChange } = props
+  const router = useRouter()
+  const pathname = usePathname()
+  const searchParams = useSearchParams()
   const [sort, setSort] = useState<'ASC' | 'DESC'>('ASC')
 
   const typeOptions = useMemo(() => {
@@ -34,14 +39,14 @@ const FormSearchProduct: React.FC<Props> = (props) => {
 
   const categoryOptions = useMemo(() => {
     const unique = Array.from(new Set(PRODUCT_LIST.map(item => item.sort_type.gems_category)))
-    return unique.map(value => ({ label: value, value }))
+    return unique.map(value => ({ label: CATEGORY[value as keyof typeof CATEGORY], value }))
   }, [])
 
   const { control } = useForm<FormValues>({
     defaultValues: {
       keyword: '',
       type: null,
-      category: null,
+      category: searchParams.get('category'),
     }
   })
 
@@ -118,6 +123,12 @@ const FormSearchProduct: React.FC<Props> = (props) => {
                     showSearch
                     allowClear
                     placeholder='Select category'
+                    onChange={(value) => {
+                      field.onChange(value)
+                      if (!value) {
+                        router.replace(pathname)
+                      }
+                    }}
                   />
                 </fieldset>
               )

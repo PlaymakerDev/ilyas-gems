@@ -1,6 +1,5 @@
 import React from 'react'
 import { Image } from 'antd'
-import { HeartOutlined } from '@ant-design/icons'
 import type { Product } from '@/types/product-list'
 
 interface Props {
@@ -22,14 +21,6 @@ const Gallery: React.FC<Props> = (props) => {
           classNames={{ root: 'block h-full w-full' }}
         />
       </figure>
-
-      <button
-        type="button"
-        aria-label="Add to wishlist"
-        className="absolute right-4 top-4 flex h-9 w-9 items-center justify-center rounded-full bg-white/90 text-gray-600 shadow-sm backdrop-blur-sm transition-colors hover:text-red-500"
-      >
-        <HeartOutlined />
-      </button>
     </div>
   )
 }

@@ -11,6 +11,8 @@ interface SpotlightCategoryItem {
   title: string
   description: string
   image_url: string
+  category: 'NATURAL' | 'LABS_CREATE' | ''
+
 }
 
 const categories = spotlightCategoryList as SpotlightCategoryItem[]
@@ -23,14 +25,19 @@ const SpotlightCategory: React.FC<Props> = (props) => {
       <div className='text-center'>
         <h1>Our Spotlight Category</h1>
         <section className='relative mt-5'>
-          <div className='grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
+          <div className='flex flex-wrap justify-center gap-5'>
             {categories.map((category) => (
-              <SpotlightCategoryCard
+              <div
                 key={category.id}
-                title={category.title}
-                description={category.description}
-                image_url={category.image_url}
-              />
+                className='w-full sm:w-[calc(50%-0.625rem)] lg:w-[calc(33.3333%-0.8333rem)] xl:w-[calc(25%-0.9375rem)]'
+              >
+                <SpotlightCategoryCard
+                  title={category.title}
+                  description={category.description}
+                  image_url={category.image_url}
+                  category={category.category}
+                />
+              </div>
             ))}
           </div>
         </section>

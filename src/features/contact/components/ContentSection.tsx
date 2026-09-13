@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useCallback, useState } from 'react'
+import React, { useCallback, useMemo, useState } from 'react'
 import { Button, Input } from 'antd'
 import { Controller, useForm } from 'react-hook-form'
 import {
@@ -12,6 +12,9 @@ import {
   TbMapPin,
   TbPhone,
 } from 'react-icons/tb'
+import * as motion from 'motion/react-client'
+import Image from 'next/image'
+import { SOCIAL_LINKS } from '@/constants'
 
 interface Props {
 
@@ -82,6 +85,30 @@ const ContentSection: React.FC<Props> = (props) => {
       setSubmitError(err instanceof Error ? err.message : 'Failed to send message.')
     }
   }, [reset])
+
+  const renderSocialLink = useMemo(() => {
+    return SOCIAL_LINKS.map((social) => (
+      <motion.a
+        key={social.name}
+        href={social.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center justify-center hover:cursor-pointer opacity-80 hover:opacity-100 transition-opacity duration-200"
+        aria-label={`Visit ${social.name} profile`}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.95 }}
+      >
+        <Image
+          src={social.icon}
+          width={30}
+          height={30}
+          alt={social.alt}
+          className="object-contain"
+          draggable={false}
+        />
+      </motion.a>
+    ))
+  }, [])
 
   return (
     <div className='mx-auto max-w-6xl px-5 py-10 sm:py-14'>
@@ -173,7 +200,8 @@ const ContentSection: React.FC<Props> = (props) => {
           <div className='mt-6'>
             <p className='mb-3 fs-11 font-semibold uppercase tracking-wide text-gray-500'>Follow Us</p>
             <div className='flex items-center gap-3'>
-              {socialLinks.map((social) => (
+              {renderSocialLink}
+              {/* {socialLinks.map((social) => (
                 <span
                   key={social.label}
                   aria-label={social.label}
@@ -181,7 +209,7 @@ const ContentSection: React.FC<Props> = (props) => {
                 >
                   <social.icon className='fs-18' />
                 </span>
-              ))}
+              ))} */}
             </div>
           </div>
         </section>

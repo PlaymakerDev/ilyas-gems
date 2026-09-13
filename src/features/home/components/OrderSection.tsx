@@ -1,4 +1,7 @@
+'use client'
+
 import { Image } from 'antd'
+import { useRouter } from 'next/navigation'
 import React from 'react'
 
 interface Props {
@@ -7,6 +10,7 @@ interface Props {
 
 const OrderSection: React.FC<Props> = (props) => {
   const { } = props
+  const router = useRouter()
 
   return (
     <div className='flex h-screen flex-col lg:flex-row'>
@@ -16,6 +20,7 @@ const OrderSection: React.FC<Props> = (props) => {
           <p className='mb-5'>Every gemstone begins as a dream. At Gems n Gems, we take your inspiration and transform it into a timeless piece of jewellery. With careful attention to detail and a deep understanding of what makes each creation unique.</p>
           <p
             className="relative inline-block cursor-pointer pb-2 font-semibold tracking-wide after:absolute after:bottom-0 after:left-1/2 after:h-px after:w-8 after:-translate-x-1/2 after:bg-gray-400 after:transition-all after:duration-300 after:content-[''] hover:after:w-full hover:after:bg-gray-800"
+            onClick={() => router.push('/product')}
           >
             Order now
           </p>
