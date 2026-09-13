@@ -35,8 +35,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Title",
-  description: "Description",
+  title: "Ilyas Gems",
+  description: "Ilyas Gems Description",
 };
 
 export default function RootLayout({
