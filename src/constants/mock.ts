@@ -19,3 +19,8 @@ export const SOCIAL_LINKS = [
     alt: 'Instagram profile',
   },
 ] as const
+
+export const CATEGORY = {
+  "LABS_CREATE": "Lab Created Gems",
+  "NATURAL": "Natural Gems"
+}
